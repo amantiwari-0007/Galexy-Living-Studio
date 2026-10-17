@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Galaxy Living Studio about mattresses, bedding, curtains, blinds and home furnishing enquiries.">
+  <title>Make an Enquiry | Galaxy Living Studio</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%2326251f'/%3E%3Ctext x='32' y='44' font-size='34' text-anchor='middle' fill='%23d9b878'%3E%E2%9C%A6%3C/text%3E%3C/svg%3E"><meta name="theme-color" content="#26251f"><meta property="og:type" content="website"><meta property="og:site_name" content="Galaxy Living Studio"><meta property="og:title" content="Make an Enquiry | Galaxy Living Studio"><meta property="og:description" content="Contact Galaxy Living Studio about mattresses, bedding, curtains, blinds and home furnishing enquiries."><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap"><link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <script defer src="script.js"></script>
+</head>
+<body id="top">
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header class="site-header"><nav class="navbar wrap" aria-label="Main navigation">
+  <a class="brand" href="index.html" aria-label="Galaxy Living Studio home"><span class="brand-mark"><i class="fa-solid fa-house-chimney"></i><b>✦</b></span><span><strong>GALAXY <em>LIVING</em></strong><small>STUDIO · WE DESIGN OUR DREAMS</small></span></a>
+  <button type="button" class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+  <div class="nav-links" id="navLinks"><a href="index.html">Home</a><a href="products.html">Collections</a><a href="index.html#mattresses">Mattresses</a><a href="index.html#curtains">Curtains</a><a href="about.html">About</a><a href="projects.html">Inspiration</a></div>
+</nav></header>
+<main id="main-content">
+  <section class="contact-page-hero"><div class="wrap"><p class="eyebrow light"><span></span> START A CONVERSATION</p><h1>Tell us what<br><em>you have in mind.</em></h1><p>Share a few details about your space or the product you are exploring. We’ll open WhatsApp with your enquiry filled in, ready for you to review and send.</p><div class="contact-page-direct"><a href="tel:+918882901005"><i class="fa-solid fa-phone"></i><span><small>Call the studio</small><strong>+91 8882901005</strong></span></a><a href="https://wa.me/918882901005" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i><span><small>Prefer messaging?</small><strong>Chat on WhatsApp</strong></span></a></div></div></section>
+  <section class="contact-page-section section-pad"><div class="wrap contact-page-grid">
+    <div class="contact-page-aside"><p class="eyebrow"><span></span> YOUR ENQUIRY</p><h2>A thoughtful start<br>to <em>the right choice.</em></h2><p>Whether you are comparing mattresses, refreshing bedding, planning curtains or exploring a wider interior project, use the form to outline what you need.</p><div class="contact-promise"><span><i class="fa-solid fa-check"></i></span><div><strong>Personalised enquiry</strong><p>Your form details will be added to a WhatsApp message for the studio.</p></div></div><div class="contact-promise"><span><i class="fa-solid fa-lock"></i></span><div><strong>Review before sending</strong><p>WhatsApp opens with your message filled in. Review it and tap Send to contact the studio; this website does not submit the form to a server.</p></div></div></div>
+    <form class="contact-page-form" id="standaloneEnquiryForm">
+      <div class="contact-page-form-heading"><span>01 / YOUR DETAILS</span><p>Fields marked * are required.</p></div>
+      <div class="contact-page-fields">
+        <label>Full name *<input name="name" autocomplete="name" minlength="2" placeholder="Your name" required></label>
+        <label>Phone number *<input name="phone" inputmode="tel" pattern="[0-9+()\s\-]{7,18}" title="Enter a valid phone number, e.g. +91 98765 43210" autocomplete="tel" type="tel" placeholder="Your contact number" required></label>
+        <label>Email address <input name="email" autocomplete="email" type="email" placeholder="you@example.com"></label>
+        <label>City / area <input name="location" autocomplete="address-level2" placeholder="Where is the project? (optional)"></label>
+        <label class="contact-page-full">What can we help you with? *<select name="interest" required><option value="" selected disabled>Select a category</option><option>Mattresses & Sleep Solutions</option><option>Pillows & Bedding</option><option>Curtains & Draperies</option><option>Blinds</option><option>Sofa Fabrics & Upholstery</option><option>Wallpapers & Wall Coverings</option><option>Flooring</option><option>Furniture</option><option>Home Interiors & Solutions</option><option>Glass & Window Solutions</option><option>Construction & Projects</option><option>General enquiry / not sure yet</option></select></label>
+        <label>Approximate budget <select name="budget"><option value="Not specified">Prefer not to say</option><option>Under ₹25,000</option><option>₹25,000–₹75,000</option><option>₹75,000–₹2,00,000</option><option>₹2,00,000+</option><option>Need guidance</option></select></label>
+        <label>When are you planning? <select name="timeline"><option>Just exploring</option><option>Within 2–4 weeks</option><option>Within 1–3 months</option><option>Flexible timeline</option></select></label>
+        <label class="contact-page-full">Tell us a little more *<textarea name="message" rows="5" minlength="8" placeholder="Room, measurements, preferred style, colours, quantity or questions…" required></textarea></label>
+      </div>
+      <button class="button button-gold contact-page-submit" type="submit">Send enquiry on WhatsApp <i class="fa-brands fa-whatsapp"></i></button>
+      <p class="form-message" id="standaloneStatus" role="status" aria-live="polite">After you submit, WhatsApp opens with your enquiry prepared. Review the message and press Send there. Your details are not stored by this website.</p>
+    </form>
+  </div></section>
+</main>
+
+<!-- Site-wide footer: brand story, helpful navigation, contact details, and legal/copyright strip. -->
+<footer class="site-footer premium-footer">
+  <div class="footer-backdrop" aria-hidden="true"></div>
+  <div class="premium-footer-panel">
+    <div class="premium-footer-main">
+      <!-- Brand column: concise positioning statement and social/contact shortcuts. -->
+      <div class="premium-footer-brand">
+        <a class="brand footer-brand" href="index.html" aria-label="Galaxy Living Studio home">
+          <span class="brand-mark" aria-hidden="true"><i class="fa-solid fa-leaf"></i><b>✦</b></span>
+          <span><strong>GALAXY <em>LIVING</em></strong><small>THOUGHTFUL LIVING, BEAUTIFULLY MADE</small></span>
+        </a>
+        <p>Considered materials, timeless textures and thoughtful details for the way you live.</p>
+        <div class="footer-social-links" aria-label="Contact channels">
+          <a href="tel:+918882901005" aria-label="Call Galaxy Living Studio"><i class="fa-solid fa-phone" aria-hidden="true"></i></a>
+          <a href="https://wa.me/918882901005" target="_blank" rel="noopener noreferrer" aria-label="Message Galaxy Living Studio on WhatsApp"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
+          <a href="contact.html" aria-label="Open the contact page"><i class="fa-regular fa-envelope" aria-hidden="true"></i></a>
+        </div>
+      </div>
+      <!-- Quick links column: the main pages visitors commonly need. -->
+      <nav class="premium-footer-column" aria-label="Quick links">
+        <h2>Explore</h2>
+        <a href="index.html">Home</a><a href="about.html">Our approach</a><a href="products.html">Collections</a><a href="projects.html">Inspiration</a><a href="contact.html">Make an enquiry</a>
+      </nav>
+      <!-- Help column: direct answers and ways to start a conversation. -->
+      <nav class="premium-footer-column" aria-label="Help and services">
+        <h2>How we help</h2>
+        <a href="products.html">Browse products</a><a href="contact.html">Project consultation</a><a href="contact.html">FAQs &amp; guidance</a><a href="contact.html">Care and material advice</a>
+      </nav>
+      <!-- Contact column: use real clickable phone and WhatsApp destinations. -->
+      <div class="premium-footer-column premium-footer-contact">
+        <h2>Let's talk</h2>
+        <p>Have a room, a project, or a question in mind? Tell us what you need.</p>
+        <a href="tel:+918882901005"><i class="fa-solid fa-phone" aria-hidden="true"></i> +91 88829 01005</a>
+        <a href="https://wa.me/918882901005" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> Chat on WhatsApp</a>
+        <a href="contact.html" class="footer-enquiry-link">Start an enquiry <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+    <!-- Bottom strip: current year is filled in by script.js. -->
+    <div class="premium-footer-bottom">
+      <span>© <span id="year"></span> Aure &amp; Loom Studio. All rights reserved.</span>
+      <span>Made for considered living.</span>
+      <a href="#top" class="footer-back-top">Back to top ↑</a>
+    </div>
+  </div>
+</footer>
+
+
+<aside class="contact-dock" aria-label="Quick contact options">
+  <a class="contact-dock-link" href="tel:+918882901005" aria-label="Call Galaxy Living Studio at +91 8882901005" title="Call us"><span class="contact-dock-label">Call</span><i class="fa-solid fa-phone" aria-hidden="true"></i></a>
+  <a class="contact-dock-link" href="contact.html" aria-label="Open the enquiry form" title="Enquiry form"><span class="contact-dock-label">Enquiry form</span><i class="fa-regular fa-clipboard" aria-hidden="true"></i></a>
+  <button class="contact-dock-link contact-dock-whatsapp" type="button" data-whatsapp-toggle aria-label="Open WhatsApp contact panel" aria-expanded="false" aria-controls="whatsappMiniPanel" title="WhatsApp"><span class="contact-dock-label">WhatsApp</span><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></button>
+</aside>
+<section class="whatsapp-mini-panel" id="whatsappMiniPanel" aria-label="WhatsApp contact panel" aria-hidden="true" hidden>
+  <div class="whatsapp-mini-top"><span class="whatsapp-mini-mark"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></span><div><p>GALAXY LIVING STUDIO</p><span>WhatsApp enquiry</span></div><button type="button" class="whatsapp-mini-close" data-whatsapp-close aria-label="Close WhatsApp panel"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button></div>
+  <div class="whatsapp-mini-chat"><span class="whatsapp-mini-time">A little note to get started</span><p>Hello! Welcome to Galaxy Living Studio. Tell us what you're looking for and we'll be happy to help you explore the options.</p><small>Prepared on this website</small></div>
+  <label class="whatsapp-mini-label" for="whatsappMiniMessage">Your message</label>
+  <textarea id="whatsappMiniMessage" rows="3" maxlength="1200" placeholder="Hi, I’d like to enquire about…">Hello Galaxy Living Studio, I would like to make an enquiry.</textarea>
+  <button type="button" class="whatsapp-mini-send" data-whatsapp-send>Continue to WhatsApp <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></button>
+  <p class="whatsapp-mini-note">WhatsApp opens only when you choose to continue.</p>
+</section>
+</body></html>

@@ -1,0 +1,8 @@
+(() => {'use strict';
+const cards=[...document.querySelectorAll('[data-project-category]')];
+document.querySelectorAll('[data-project-filter]').forEach(btn=>btn.addEventListener('click',()=>{const f=btn.dataset.projectFilter;document.querySelectorAll('[data-project-filter]').forEach(b=>{const on=b===btn;b.classList.toggle('is-active',on);b.setAttribute('aria-pressed',String(on));});cards.forEach(card=>{card.hidden=f!=='all'&&!card.dataset.projectCategory.split(' ').includes(f);});}));
+let lastTrigger=null;const modal=document.querySelector('#projectModal');const close=document.querySelector('#projectModalClose');
+document.querySelectorAll('.project-open').forEach(btn=>btn.addEventListener('click',()=>{lastTrigger=btn;document.querySelector('#projectModalTitle').textContent=btn.dataset.projectTitle;document.querySelector('#projectModalDescription').textContent=btn.dataset.projectDescription;const img=document.querySelector('#projectModalImage');img.src=btn.dataset.projectImage;img.alt=btn.dataset.projectTitle+' illustrative inspiration';modal.hidden=false;document.body.classList.add('modal-open');close.focus();}));
+function hide(){modal.hidden=true;document.body.classList.remove('modal-open');lastTrigger?.focus();}
+close?.addEventListener('click',hide);modal?.addEventListener('click',e=>{if(e.target===modal)hide();});document.addEventListener('keydown',e=>{if(!modal||modal.hidden)return;if(e.key==='Escape'){hide();return;}if(e.key==='Tab'){const f=[...modal.querySelectorAll('a[href],button:not([disabled])')];if(!f.length)return;const first=f[0],last=f[f.length-1];if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}}});
+})();

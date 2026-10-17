@@ -1,0 +1,1113 @@
+:root{--ink:#28251f;--muted:#777168;--cream:#f8f6f1;--paper:#fffefa;--gold:#b18a4d;--gold-dark:#8e6a34;--line:#e7e0d5;--dark:#26251f;--serif:'Playfair Display',Georgia,serif;--sans:'DM Sans',Arial,sans-serif;--wrap:1200px}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:95px}body{margin:0;color:var(--ink);background:var(--paper);font-family:var(--sans);line-height:1.65}img{display:block;width:100%;height:100%;object-fit:cover}a{color:inherit;text-decoration:none}button,input,select{font:inherit}.wrap{width:min(var(--wrap),calc(100% - 64px));margin-inline:auto}.section-pad{padding:100px 0}.site-header{position:sticky;top:0;z-index:50;background:rgba(255,254,250,.96);backdrop-filter:blur(16px);border-bottom:1px solid rgba(231,224,213,.85)}.navbar{min-height:88px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:12px;flex-shrink:0}.brand-mark{position:relative;width:48px;height:48px;display:grid;place-items:center;background:var(--dark);color:#d9b878;border-radius:14px;font-size:20px}.brand-mark b{position:absolute;top:2px;right:5px;color:white;font-size:11px}.brand strong{display:block;letter-spacing:1.2px;font-size:16px;line-height:1.4}.brand em{font-style:normal;color:var(--gold-dark)}.brand small{display:block;font-size:8px;letter-spacing:1.4px;color:var(--muted);margin-top:4px}.nav-links{display:flex;align-items:center;gap:27px}.nav-links>a:not(.nav-cta){font-size:12px;font-weight:600;color:#504b43;transition:color .2s}.nav-links>a:hover{color:var(--gold-dark)}.nav-cta{padding:12px 17px;background:var(--dark);color:white;border-radius:3px;font-size:12px;font-weight:700}.nav-cta i{color:#d7b16d;margin-left:8px}.menu-toggle{display:none;border:0;background:transparent;font-size:23px;color:var(--ink)}.hero{position:relative;min-height:min(730px,calc(100vh - 88px));display:flex;align-items:center;overflow:hidden;background:#35342f;color:#fff}.hero-photo,.hero-shade{position:absolute;inset:0}.hero-photo{background:url('https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=2000&q=90') center 53%/cover no-repeat;transform:scale(1.015)}.hero-shade{background:linear-gradient(90deg,rgba(24,23,20,.78) 0%,rgba(24,23,20,.58) 43%,rgba(24,23,20,.1) 100%),linear-gradient(0deg,rgba(24,23,20,.3),transparent 40%)}.hero-content{position:relative;z-index:1;padding-block:100px 115px;max-width:var(--wrap)}.eyebrow{font-size:10px;letter-spacing:2px;font-weight:700;color:var(--gold-dark);margin:0 0 17px;display:flex;align-items:center;gap:10px}.eyebrow>span{display:inline-block;width:24px;height:1px;background:currentColor}.hero-eyebrow,.light{color:#e4c48b}.hero h1,.catalogue-hero h1{font:500 clamp(54px,7vw,88px)/1.08 var(--serif);letter-spacing:-2px;margin:0;max-width:760px}.hero h1 em,.section-heading h2 em,.intro h2 em,.sleep-copy h2 em,.curtain-copy h2 em,.contact-grid h2 em,.catalogue-hero h1 em{font-weight:500;color:#d7b16d}.hero-copy{max-width:490px;font-size:15px;color:#e8e4dc;margin:25px 0 30px;line-height:1.9}.hero-actions{display:flex;flex-wrap:wrap;gap:12px}.button{min-height:48px;display:inline-flex;align-items:center;justify-content:center;gap:20px;padding:13px 20px;font-size:12px;font-weight:700;border:1px solid transparent;transition:transform .2s,background .2s,color .2s;cursor:pointer}.button:hover{transform:translateY(-2px)}.button i{font-size:11px}.button-gold{background:var(--gold);color:#fff}.button-gold:hover{background:var(--gold-dark)}.button-dark{background:var(--dark);color:#fff}.button-dark:hover{background:var(--gold-dark)}.button-outline{border-color:rgba(255,255,255,.55);color:white;background:rgba(255,255,255,.06)}.button-outline:hover{background:white;color:var(--ink)}.hero-note{display:flex;align-items:center;gap:13px;margin-top:75px;font-size:10px;letter-spacing:.7px;color:#e1dbd0}.hero-note>span:first-child{color:#d9b878}.note-line{width:52px;height:1px;background:#d9b878}.hero-scroll{position:absolute;right:max(32px,calc((100vw - var(--wrap))/2));bottom:32px;display:flex;align-items:center;gap:13px;font-size:9px;letter-spacing:1.8px;color:#eee}.hero-scroll i{color:#d9b878}.intro{background:var(--cream)}.intro-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:80px;align-items:end}.intro h2,.section-heading h2,.sleep-copy h2,.curtain-copy h2,.contact-grid h2{font:500 clamp(36px,4vw,54px)/1.2 var(--serif);letter-spacing:-.8px;margin:0}.intro h2 em,.section-heading h2 em{color:var(--gold-dark)}.intro-copy{max-width:450px;color:var(--muted);font-size:14px}.intro-copy p{margin:0 0 22px}.text-link{display:inline-flex;align-items:center;gap:14px;font-size:12px;font-weight:700;color:var(--gold-dark);padding-bottom:5px;border-bottom:1px solid #d4c2a4}.text-link i{transition:transform .2s}.text-link:hover i{transform:translateX(4px)}.section-heading{display:flex;align-items:end;justify-content:space-between;gap:30px;margin-bottom:32px}.section-heading h2{font-size:clamp(34px,3.5vw,46px)}.desktop-link{margin-bottom:7px}.filter-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:27px}.filter-tab{border:1px solid var(--line);background:transparent;color:#625c52;padding:10px 16px;font-size:11px;cursor:pointer;transition:all .2s}.filter-tab:hover,.filter-tab.is-active{background:var(--dark);border-color:var(--dark);color:#fff}.collection-grid{display:grid;grid-template-columns:1.18fr 1fr 1fr;gap:22px;align-items:start}.collection-card{min-width:0}.card-image{height:270px;display:block;position:relative;overflow:hidden;background:#e9e3d9}.collection-large .card-image{height:350px}.card-image img,.product-image img,.catalogue-image img{transition:transform .6s}.collection-card:hover .card-image img,.product-card:hover .product-image img,.catalogue-card:hover .catalogue-image img{transform:scale(1.04)}.image-number{position:absolute;left:15px;bottom:14px;color:white;background:rgba(35,33,28,.6);padding:6px 9px;font-size:9px;letter-spacing:1.5px}.collection-info{padding:22px 4px 8px}.collection-info h3,.product-card h3,.catalogue-info h3{font:500 24px/1.3 var(--serif);margin:0 0 9px}.collection-info>p:not(.eyebrow),.catalogue-info>p:not(.eyebrow){font-size:12px;color:var(--muted);line-height:1.8;margin:0 0 18px}.collection-info .eyebrow,.product-card .eyebrow,.catalogue-info .eyebrow{font-size:9px;margin-bottom:9px}.collection-info .text-link{margin-top:1px}.mobile-all-link{display:none}.sleep-feature{background:#f0ede6}.sleep-grid{display:grid;grid-template-columns:1.03fr .97fr;align-items:center;gap:clamp(40px,8vw,105px)}.sleep-photo{height:510px;position:relative;background:#ddd5c9}.photo-caption{position:absolute;left:20px;right:20px;bottom:20px;padding:17px 20px;background:rgba(255,254,250,.94);display:flex;flex-direction:column}.photo-caption span{font-size:9px;letter-spacing:1.8px;color:var(--gold-dark)}.photo-caption strong{font:500 22px var(--serif)}.sleep-copy h2{font-size:clamp(38px,4vw,52px);margin-bottom:18px}.sleep-copy h2 em,.curtain-copy h2 em{color:var(--gold-dark)}.sleep-copy>p:not(.eyebrow),.curtain-copy>p:not(.eyebrow){font-size:13px;color:var(--muted);line-height:1.9;max-width:430px}.check-list{list-style:none;padding:0;margin:25px 0 28px;display:grid;gap:12px}.check-list li{font-size:12px;color:#514b42}.check-list i{color:var(--gold-dark);margin-right:10px}.curtains{background:var(--paper)}.curtain-feature{display:grid;grid-template-columns:1.05fr .95fr;min-height:440px;background:var(--cream)}.curtain-photo{position:relative;min-height:440px;background:#d9d1c4}.curtain-photo img{position:absolute;inset:0}.photo-stamp{position:absolute;left:22px;top:22px;width:76px;height:76px;border-radius:50%;display:grid;place-content:center;text-align:center;background:var(--gold);color:white;font-size:10px;letter-spacing:1px;line-height:1.5}.curtain-copy{align-self:center;padding:55px clamp(30px,5vw,70px)}.curtain-copy h2{font-size:clamp(36px,4vw,50px)}.curtain-tags{display:flex;gap:8px;flex-wrap:wrap;margin:23px 0 28px}.curtain-tags span{font-size:10px;padding:7px 10px;border:1px solid #ddd2c1;color:#5b5348}.services{background:var(--cream)}.heading-aside{max-width:300px;font-size:12px;line-height:1.8;color:var(--muted);margin:0 0 5px}.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.service-grid article{background:var(--paper);padding:29px 28px;border:1px solid var(--line)}.service-icon{display:grid;place-items:center;width:42px;height:42px;border-radius:50%;background:#eee4d3;color:var(--gold-dark);margin-bottom:20px}.service-grid h3{font:500 22px var(--serif);margin:0 0 8px}.service-grid p{font-size:12px;color:var(--muted);min-height:42px;margin:0 0 18px}.service-grid .text-link{font-size:11px}.product-preview{background:var(--paper)}.product-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:17px}.product-card{border:1px solid var(--line);background:#fff}.product-image{height:180px;position:relative;display:block;overflow:hidden;background:#e5ded2}.product-image>span{position:absolute;top:10px;left:10px;background:rgba(255,254,250,.9);font-size:10px;padding:5px 8px}.product-card>div:last-child{padding:17px 15px 19px}.product-card h3{font-size:19px;min-height:50px}.product-card .text-link{font-size:10px;gap:8px}.center-action{display:flex;justify-content:center;margin-top:35px}.contact-section,.catalogue-enquiry{background:var(--dark);color:white}.contact-grid{display:grid;grid-template-columns:1fr .8fr;gap:clamp(45px,10vw,140px);align-items:center}.contact-grid h2{font-size:clamp(48px,5vw,65px)}.contact-grid>div>p:not(.eyebrow){font-size:13px;color:#c6c0b6;max-width:350px;margin-top:18px}.contact-form{display:grid;gap:9px}.contact-form label{font-size:11px;color:#e3ddd2;margin-top:7px}.contact-form input,.contact-form select{width:100%;min-height:46px;padding:12px 13px;background:#34332d;border:1px solid #555147;color:#fff;border-radius:0;outline-offset:2px}.contact-form select option{background:#34332d}.contact-form .button{margin-top:13px;justify-self:start}.form-message{font-size:10px;color:#bcb5a8;margin:3px 0 0;line-height:1.7}.site-footer{background:#201f1b;color:#fff;padding:35px 0 0}.footer-top{display:flex;align-items:center;justify-content:space-between;gap:25px;padding-bottom:28px}.footer-brand strong{color:#fff}.footer-top>p{font:italic 16px var(--serif);color:#c5bfb4}.footer-links{display:flex;gap:18px;flex-wrap:wrap}.footer-links a,.footer-bottom{font-size:10px;color:#bcb5a8}.footer-links a:hover,.footer-bottom a:hover{color:#fff}.footer-bottom{border-top:1px solid #413f38;padding:18px 0;display:flex;align-items:center;justify-content:space-between;gap:15px}.catalogue-hero{background:linear-gradient(110deg,#2a2923,#4b463b);color:white;padding:95px 0 90px}.catalogue-hero h1{font-size:clamp(50px,6vw,75px)}.catalogue-hero h1 em{color:#d7b16d}.catalogue-hero .wrap>p:not(.eyebrow){max-width:520px;color:#d3cec4;font-size:14px;line-height:1.9;margin:20px 0 25px}.catalogue{background:var(--paper)}.catalogue-filters{margin-top:20px}.catalogue-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}.catalogue-card{border:1px solid var(--line);background:#fff;scroll-margin-top:110px}.catalogue-image{display:block;height:240px;overflow:hidden;background:#e5ded2}.catalogue-info{padding:22px}.catalogue-info h3{font-size:22px}.catalogue-info>p:not(.eyebrow){min-height:66px}.catalogue-enquiry{padding:85px 0} [hidden]{display:none!important}.image-unavailable{visibility:hidden}
+@media(max-width:1000px){.wrap{width:min(var(--wrap),calc(100% - 44px))}.nav-links{gap:16px}.nav-links>a:not(.nav-cta){font-size:11px}.collection-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.collection-large .card-image,.card-image{height:280px}.product-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.product-image{height:190px}.sleep-grid{gap:45px}.sleep-photo{height:450px}.catalogue-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:720px){.section-pad{padding:70px 0}.wrap{width:calc(100% - 36px)}.navbar{min-height:76px}.brand-mark{width:42px;height:42px}.brand strong{font-size:14px}.brand small{font-size:7px}.menu-toggle{display:block;position:relative;z-index:2}.nav-links{display:none;position:absolute;left:0;right:0;top:76px;background:var(--paper);padding:18px 22px 24px;border-bottom:1px solid var(--line);box-shadow:0 15px 25px #29251f10;align-items:stretch;gap:0}.nav-links.is-open{display:flex;flex-direction:column}.nav-links>a:not(.nav-cta){font-size:13px;padding:13px 0;border-bottom:1px solid var(--line)}.nav-cta{margin-top:15px;text-align:center}.hero{min-height:650px;min-height:calc(88svh - 76px)}.hero-photo{background-position:59% center}.hero-shade{background:linear-gradient(90deg,rgba(24,23,20,.76),rgba(24,23,20,.37)),linear-gradient(0deg,rgba(24,23,20,.3),transparent 50%)}.hero-content{padding-block:85px 100px}.hero h1{font-size:clamp(48px,12vw,70px);letter-spacing:-1.5px}.hero-copy{font-size:13px;max-width:390px}.hero-actions{align-items:stretch;flex-direction:column;max-width:270px}.button{justify-content:space-between}.hero-note{margin-top:50px}.hero-scroll{right:18px;bottom:20px;font-size:8px}.intro-grid,.sleep-grid,.curtain-feature,.contact-grid{grid-template-columns:1fr;gap:30px}.intro-grid{align-items:start}.intro h2,.section-heading h2{font-size:38px}.section-heading{align-items:flex-start;flex-direction:column;gap:18px}.desktop-link{display:none}.collection-grid{grid-template-columns:1fr;gap:25px}.collection-large .card-image,.card-image{height:300px}.collection-info{padding-top:17px}.mobile-all-link{display:block;margin-top:28px}.sleep-photo{height:380px}.sleep-copy h2,.curtain-copy h2{font-size:40px}.curtain-photo{min-height:320px;height:320px}.curtain-copy{padding:32px 23px 35px}.heading-aside{max-width:100%}.service-grid{grid-template-columns:1fr;gap:12px}.service-grid article{padding:25px}.service-grid p{min-height:0}.product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.product-image{height:160px}.product-card>div:last-child{padding:14px 12px}.product-card h3{font-size:17px;min-height:44px}.product-card .eyebrow{font-size:8px;letter-spacing:1px}.product-card .text-link{font-size:10px}.contact-grid{gap:30px}.contact-grid h2{font-size:54px}.footer-top{align-items:flex-start;flex-direction:column}.footer-top>p{margin:0}.footer-links{gap:14px}.footer-bottom{align-items:flex-start;flex-direction:column;gap:8px}.catalogue-hero{padding:70px 0}.catalogue-hero h1{font-size:52px}.catalogue-grid{grid-template-columns:1fr}.catalogue-image{height:250px}.catalogue-info>p:not(.eyebrow){min-height:0}.catalogue-filters{gap:7px}.filter-tab{padding:9px 12px;font-size:10px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+
+/* Visual upgrade: image-led introduction, richer collection cards and visible hover states */
+.intro-grid{grid-template-columns:1fr 1fr 1.05fr;gap:34px;align-items:center}
+.intro-photo{display:block;position:relative;min-height:260px;height:100%;max-height:310px;overflow:hidden;background:#e5ded2}
+.intro-photo img{position:absolute;inset:0;transition:transform .65s ease;object-fit:cover}
+.intro-photo:hover img{transform:scale(1.06)}
+.intro-photo span{position:absolute;left:12px;right:12px;bottom:12px;padding:12px 14px;background:rgba(255,254,250,.93);display:flex;align-items:center;justify-content:space-between;gap:12px;font-size:11px;font-weight:600}
+.collection-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.collection-card{transition:transform .25s ease,box-shadow .25s ease;background:#fff}
+.collection-card:hover{transform:translateY(-5px);box-shadow:0 16px 32px rgba(43,37,28,.10)}
+.collection-card .card-image{height:245px}
+.collection-card.collection-large .card-image{height:245px}
+.collection-card .collection-info{padding:20px 18px 23px}
+.collection-card .collection-info h3{font-size:22px}
+.collection-card .collection-info>p:not(.eyebrow){min-height:44px}
+.curtain-photo{overflow:hidden}
+.curtain-photo img{transition:transform .7s ease}
+.curtain-feature:hover .curtain-photo img{transform:scale(1.035)}
+.curtain-tags span{cursor:default;transition:background .22s ease,color .22s ease,border-color .22s ease,transform .22s ease}
+.curtain-tags span:hover{background:var(--dark);color:#fff;border-color:var(--dark);transform:translateY(-3px)}
+.catalogue-card{overflow:hidden;transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}
+.catalogue-card:hover{transform:translateY(-5px);box-shadow:0 16px 32px rgba(43,37,28,.11);border-color:#d4c2a4}
+.catalogue-image{position:relative}
+.catalogue-image::after{content:'View collection ↗';position:absolute;right:12px;bottom:12px;padding:8px 11px;background:rgba(255,254,250,.94);color:var(--ink);font-size:10px;letter-spacing:.3px;opacity:0;transform:translateY(5px);transition:opacity .25s ease,transform .25s ease}
+.catalogue-card:hover .catalogue-image::after{opacity:1;transform:translateY(0)}
+.catalogue-card:hover .catalogue-image img{transform:scale(1.06)}
+.catalogue-info .text-link{display:inline-flex;align-items:center;gap:8px}
+.catalogue-info .text-link i{transition:transform .2s ease}
+.catalogue-info .text-link:hover i{transform:translateX(5px)}
+@media(max-width:1000px){.intro-grid{grid-template-columns:1fr 1fr;gap:30px}.intro-photo{grid-column:1/-1;height:280px;max-height:none}.collection-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:720px){.intro-grid{grid-template-columns:1fr;gap:20px}.intro-photo{grid-column:auto;height:250px;min-height:250px}.collection-grid{grid-template-columns:1fr}.collection-card .card-image,.collection-card.collection-large .card-image{height:280px}.collection-card .collection-info>p:not(.eyebrow){min-height:0}.catalogue-image::after{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.intro-photo img,.collection-card,.curtain-photo img,.catalogue-card,.catalogue-image::after{transition:none}}
+
+/* Image-led automatic hero carousels with manual controls */
+.hero-slideshow{position:relative;isolation:isolate}
+.hero-photo.hero-slideshow{background:#3b3932;transform:none}
+.hero-slideshow .hero-slide{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transform:scale(1.035);transition:opacity .9s ease,transform 5.5s ease;z-index:0}
+.hero-slideshow .hero-slide.is-active{opacity:1;transform:scale(1);z-index:0}
+.hero-photo.hero-slideshow .hero-slide{height:100%}
+.hero-controls{position:absolute;z-index:3;right:max(32px,calc((100vw - var(--wrap))/2));bottom:28px;display:flex;align-items:center;gap:12px}
+.hero-control{width:38px;height:38px;border:1px solid rgba(255,255,255,.55);border-radius:50%;background:rgba(25,24,21,.22);color:white;cursor:pointer;transition:background .2s,transform .2s}
+.hero-control:hover{background:var(--gold-dark);transform:translateY(-2px)}
+.hero-dots{display:flex;align-items:center;gap:7px}
+.hero-dot{width:8px;height:8px;padding:0;border:1px solid white;border-radius:50%;background:transparent;cursor:pointer}
+.hero-dot.is-active{width:22px;border-radius:9px;background:#fff}
+.hero-note{position:relative}
+.catalogue-hero{position:relative;isolation:isolate;min-height:470px;display:flex;align-items:center;overflow:hidden;background:#38352f;color:white;padding:90px 0 110px}
+.catalogue-hero .catalogue-hero-slides{position:absolute;inset:0;z-index:0}
+.catalogue-hero .catalogue-hero-slides .hero-slide{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .9s ease,transform 5.5s ease;transform:scale(1.035)}
+.catalogue-hero .catalogue-hero-slides .hero-slide.is-active{opacity:1;transform:scale(1)}
+.catalogue-hero-shade{position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,rgba(27,25,21,.82) 0%,rgba(27,25,21,.57) 52%,rgba(27,25,21,.17) 100%),linear-gradient(0deg,rgba(27,25,21,.28),transparent 60%)}
+.catalogue-hero-content{position:relative;z-index:2}
+.catalogue-hero h1{max-width:850px}
+.catalogue-hero .wrap>p:not(.eyebrow){max-width:610px;color:#eee9e0;font-size:14px;line-height:1.9;margin:20px 0 25px}
+.catalogue-hero-actions{display:flex;gap:12px;flex-wrap:wrap}
+.catalogue-hero-controls{bottom:25px}
+.catalogue-intro{display:grid;grid-template-columns:1.2fr 1fr;align-items:center;gap:34px;padding:27px 30px;margin:0 0 28px;background:#f4f0e8;border:1px solid var(--line)}
+.catalogue-intro>p{font-size:13px;line-height:1.9;color:var(--muted);margin:0;max-width:680px}
+.catalogue-points{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.catalogue-points span{font-size:11px;display:flex;align-items:center;gap:9px;color:#50483e}
+.catalogue-points i{color:var(--gold-dark)}
+.catalogue-info>p:not(.eyebrow){min-height:0;margin-bottom:14px}
+.product-details{padding:12px 0 14px 17px;margin:0 0 14px;border-top:1px solid #eee8df;color:#6d665c;font-size:11px;line-height:1.7;display:grid;gap:5px}
+.product-details li::marker{color:var(--gold-dark)}
+.about-values{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:23px 0 25px}
+.about-values div{display:flex;flex-direction:column;gap:4px;border-top:1px solid #d7cbbb;padding-top:10px}
+.about-values strong{font:500 20px var(--serif);color:var(--gold-dark)}
+.about-values span{font-size:10px;line-height:1.5;color:#5f594f}
+@media(max-width:1000px){.catalogue-intro{grid-template-columns:1fr;gap:18px}.catalogue-points{grid-template-columns:repeat(4,minmax(0,1fr))}.hero-controls{right:22px}}
+@media(max-width:720px){.hero-controls{right:18px;bottom:16px;gap:8px}.hero-control{width:34px;height:34px}.hero-note{margin-top:42px}.catalogue-hero{min-height:520px;padding:65px 0 100px}.catalogue-hero h1{font-size:clamp(42px,11vw,58px)}.catalogue-hero .wrap>p:not(.eyebrow){font-size:12px}.catalogue-hero-controls{bottom:16px}.catalogue-intro{padding:22px 18px}.catalogue-points{grid-template-columns:repeat(2,minmax(0,1fr))}.about-values{grid-template-columns:1fr;gap:8px}.about-values div{display:grid;grid-template-columns:34px 1fr;align-items:center}.about-values strong{font-size:16px}}
+@media(prefers-reduced-motion:reduce){.hero-slideshow .hero-slide,.catalogue-hero .catalogue-hero-slides .hero-slide{transition:none;transform:none}}
+
+
+/* HERO FIX: image layer -> translucent shade -> text -> controls.
+   Keep the shade light enough that the actual room photography remains visible. */
+.hero-photo.hero-slideshow{position:absolute;inset:0;z-index:0;overflow:hidden;background:#35342f;isolation:isolate}
+.hero .hero-shade{z-index:1;background:linear-gradient(90deg,rgba(24,23,20,.48) 0%,rgba(24,23,20,.28) 48%,rgba(24,23,20,.08) 100%),linear-gradient(0deg,rgba(24,23,20,.22),transparent 48%);pointer-events:none}
+.hero .hero-content{z-index:2}
+.hero .hero-controls,.hero .hero-scroll{z-index:3}
+.hero-photo.hero-slideshow .hero-slide{display:block;position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hero-photo.hero-slideshow .hero-slide.is-active{opacity:1;visibility:visible}
+.hero-photo.hero-slideshow .hero-slide:not(.is-active){opacity:0;visibility:hidden}
+/* Make the catalogue introduction and heading easier to read. */
+.catalogue .section-heading{align-items:center;margin-bottom:34px;gap:24px}
+.catalogue .section-heading h2{font-size:clamp(42px,5vw,64px);line-height:1.12;max-width:720px}
+.catalogue .section-heading .eyebrow{font-size:11px;letter-spacing:2.2px;margin-bottom:14px}
+.catalogue .section-heading>.text-link{flex-shrink:0;font-size:13px}
+.catalogue-intro{padding:34px 36px;gap:42px;scroll-margin-top:115px}
+.catalogue-intro>p{font-size:15px;line-height:1.95;max-width:760px}
+.catalogue-points span{font-size:12px;line-height:1.5}
+.catalogue-filters{margin-top:30px;margin-bottom:32px}
+@media(max-width:720px){.catalogue .section-heading h2{font-size:clamp(36px,9vw,48px)}.catalogue-intro{padding:24px 20px}.catalogue-intro>p{font-size:13px}.catalogue .section-heading>.text-link{align-self:flex-start}}
+
+/* PHASE 1 — layout polish: typography, rhythm, cards and responsive balance.
+   Intentionally leaves the working homepage and catalogue hero slideshow rules unchanged. */
+:root{--wrap:1240px}
+.section-pad{padding-block:clamp(72px,8vw,112px)}
+.intro{position:relative;overflow:hidden}
+.intro-grid{grid-template-columns:minmax(0,.92fr) minmax(0,1fr) minmax(280px,.95fr);gap:clamp(24px,3.4vw,52px);align-items:center}
+.intro-heading{align-self:center;padding:10px 0}
+.intro-heading .eyebrow{font-size:10px;letter-spacing:1.7px;line-height:1.6}
+.intro h2{font-size:clamp(38px,4.2vw,58px);line-height:1.12;letter-spacing:-1.3px;text-wrap:balance}
+.intro-heading-note{max-width:290px;color:var(--muted);font:italic 17px/1.65 var(--serif);margin:23px 0 0}
+.intro-copy{max-width:none;font-size:14px;line-height:1.9}
+.intro-copy p{margin:0 0 18px}
+.intro-copy .intro-lead{font-size:15px;color:#4f493f;line-height:1.9}
+.about-values{gap:14px;margin:26px 0 28px}
+.about-values div{padding-top:13px;min-width:0}
+.about-values strong{font-size:23px}
+.about-values span{font-size:11px;line-height:1.6}
+.intro-photo{position:relative;display:block;align-self:stretch;min-height:400px;max-height:510px;overflow:hidden;background:#e8e1d7;box-shadow:0 18px 45px rgba(43,37,28,.10)}
+.intro-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .8s cubic-bezier(.2,.65,.3,1)}
+.intro-photo:hover img{transform:scale(1.045)}
+.intro-photo>span{position:absolute;left:16px;right:16px;bottom:16px;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:15px 17px;background:rgba(255,254,250,.95);color:var(--ink);font-size:11px;font-weight:600;box-shadow:0 5px 18px rgba(0,0,0,.06)}
+.intro-photo>span i{color:var(--gold-dark)}
+.section-heading{margin-bottom:38px}
+.section-heading h2{line-height:1.15;text-wrap:balance}
+.collection-grid{gap:clamp(16px,2vw,26px)}
+.collection-card{transition:transform .28s ease}
+.collection-card:hover{transform:translateY(-4px)}
+.card-image{height:clamp(230px,24vw,310px);background:#e9e3d9}
+.collection-large .card-image{height:clamp(280px,29vw,370px)}
+.collection-info{padding:20px 2px 8px}
+.collection-info h3{font-size:clamp(22px,2.1vw,27px);line-height:1.25}
+.collection-info>p:not(.eyebrow){font-size:13px;line-height:1.8;max-width:360px}
+.product-grid{gap:18px}
+.product-card{overflow:hidden;transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}
+.product-card:hover{transform:translateY(-4px);box-shadow:0 14px 32px rgba(43,37,28,.09);border-color:#d4c2a4}
+.product-image{height:clamp(150px,16vw,205px)}
+.product-card>div:last-child{padding:18px 16px 20px}
+.product-card h3{font-size:20px;line-height:1.3;min-height:52px}
+.product-card .text-link{font-size:11px}
+.service-grid{gap:20px}
+.service-grid article{padding:32px;transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}
+.service-grid article:hover{transform:translateY(-4px);box-shadow:0 14px 30px rgba(43,37,28,.07);border-color:#d4c2a4}
+.service-grid p{font-size:13px;line-height:1.8;min-height:46px}
+.catalogue .section-heading{margin-bottom:34px}
+.catalogue .section-heading h2{font-size:clamp(44px,5vw,66px);letter-spacing:-1.5px}
+.catalogue-intro{grid-template-columns:minmax(0,1.1fr) minmax(320px,.9fr);gap:clamp(26px,4vw,58px);padding:clamp(28px,4vw,48px);margin-bottom:34px;background:linear-gradient(120deg,#f5f1e9 0%,#fbf9f4 100%);border:1px solid #e7dfd2;border-left:3px solid var(--gold)}
+.catalogue-intro-copy .eyebrow{font-size:10px;letter-spacing:1.7px;line-height:1.6}
+.catalogue-intro-copy h3{font:500 clamp(30px,3.2vw,43px)/1.18 var(--serif);letter-spacing:-.7px;margin:0 0 16px;color:var(--ink)}
+.catalogue-intro-copy h3 em{color:var(--gold-dark);font-weight:500}
+.catalogue-intro-copy>p:last-child{max-width:650px;font-size:14px;line-height:1.9;color:var(--muted);margin:0}
+.catalogue-points{gap:14px}
+.catalogue-point{display:flex;align-items:flex-start;gap:12px;padding:14px 12px;background:rgba(255,254,250,.72);border:1px solid rgba(231,224,213,.85);min-height:82px}
+.catalogue-point-icon{display:grid;place-items:center;flex:0 0 34px;width:34px;height:34px;background:#eee4d3;color:var(--gold-dark);border-radius:50%}
+.catalogue-point>span:last-child{display:flex;flex-direction:column;gap:4px;min-width:0}
+.catalogue-point strong{font-size:12px;font-weight:700;color:var(--ink)}
+.catalogue-point small{font-size:11px;line-height:1.55;color:var(--muted)}
+.catalogue-filters{margin-top:0;margin-bottom:34px;gap:9px}
+.filter-tab{padding:11px 17px;font-size:12px}
+.catalogue-grid{gap:24px;align-items:stretch}
+.catalogue-card{display:flex;flex-direction:column;background:var(--paper);border:1px solid var(--line)}
+.catalogue-image{height:clamp(220px,23vw,290px);flex:0 0 auto;background:#e8e1d7}
+.catalogue-info{display:flex;flex-direction:column;align-items:flex-start;flex:1;padding:24px 23px 25px}
+.catalogue-info h3{font-size:clamp(22px,2vw,27px);line-height:1.28}
+.catalogue-info>p:not(.eyebrow){font-size:13px;line-height:1.8;color:var(--muted)}
+.product-details{width:100%;font-size:12px;line-height:1.75;gap:7px;margin-top:auto;padding-top:16px}
+.catalogue-info>.text-link{margin-top:10px;font-size:11px}
+.catalogue-enquiry .contact-grid{gap:clamp(40px,8vw,100px)}
+:focus-visible{outline:2px solid var(--gold-dark);outline-offset:4px}
+@media(max-width:1000px){
+  .intro-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px}
+  .intro-photo{grid-column:1/-1;min-height:300px;height:320px;max-height:none}
+  .catalogue-intro{grid-template-columns:1fr;gap:24px}
+  .catalogue-points{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .catalogue-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .product-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media(max-width:720px){
+  .section-pad{padding-block:68px}
+  .intro-grid{grid-template-columns:1fr;gap:22px}
+  .intro-heading{padding:0}
+  .intro h2{font-size:clamp(38px,10vw,48px)}
+  .intro-heading-note{font-size:16px;margin-top:15px}
+  .intro-copy,.intro-copy .intro-lead{font-size:13px}
+  .about-values{gap:8px}
+  .about-values span{font-size:10px}
+  .intro-photo{grid-column:auto;min-height:260px;height:260px}
+  .section-heading{margin-bottom:27px}
+  .collection-grid{grid-template-columns:1fr;gap:27px}
+  .card-image,.collection-large .card-image{height:clamp(250px,72vw,340px)}
+  .collection-info h3{font-size:25px}
+  .product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+  .product-image{height:clamp(135px,43vw,190px)}
+  .product-card>div:last-child{padding:14px 12px 16px}
+  .product-card h3{font-size:17px;min-height:0}
+  .service-grid{grid-template-columns:1fr;gap:12px}
+  .service-grid article{padding:24px}
+  .catalogue .section-heading h2{font-size:clamp(38px,9.5vw,50px)}
+  .catalogue .section-heading>.text-link{align-self:flex-start}
+  .catalogue-intro{padding:24px 19px;gap:22px}
+  .catalogue-intro-copy h3{font-size:32px}
+  .catalogue-intro-copy>p:last-child{font-size:13px}
+  .catalogue-points{grid-template-columns:1fr 1fr;gap:9px}
+  .catalogue-point{padding:11px 9px;gap:9px;min-height:80px}
+  .catalogue-point-icon{flex-basis:30px;width:30px;height:30px}
+  .catalogue-point strong{font-size:11px}
+  .catalogue-point small{font-size:10px}
+  .catalogue-grid{grid-template-columns:1fr;gap:18px}
+  .catalogue-image{height:clamp(230px,65vw,330px)}
+  .catalogue-info{padding:22px 19px}
+  .catalogue-info h3{font-size:25px}
+  .product-details{font-size:12px}
+  .filter-tabs{gap:7px}
+  .filter-tab{padding:9px 12px;font-size:11px}
+}
+@media(prefers-reduced-motion:reduce){.intro-photo img,.collection-card,.product-card,.service-grid article,.catalogue-card{transition:none!important}}
+
+/* Quality and accessibility refinements. Hero image positioning is intentionally unchanged. */
+.skip-link{position:fixed;top:12px;left:12px;z-index:1000;padding:12px 16px;background:var(--paper);color:var(--ink);border:2px solid var(--gold-dark);transform:translateY(-160%);transition:transform .18s ease}
+.skip-link:focus{transform:translateY(0)}
+button{touch-action:manipulation}
+button:disabled{opacity:.55;cursor:not-allowed}
+img.image-unavailable{visibility:hidden}
+.filter-result-count{min-height:1.4em;margin:-20px 0 18px;color:var(--muted);font-size:12px}
+.enquiry-preview{display:grid;gap:10px;margin-top:8px;padding:18px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.18)}
+.enquiry-preview[hidden]{display:none!important}
+.enquiry-preview label{margin-top:0!important}
+.enquiry-preview textarea{width:100%;min-height:145px;resize:vertical;padding:13px;background:#fffefa;color:#28251f;border:1px solid #d8d0c4;font:13px/1.65 var(--sans)}
+.enquiry-copy{justify-self:start;background:transparent;border-color:rgba(255,255,255,.55);color:#fff}
+.enquiry-copy:hover{background:#fff;color:var(--ink)}
+.enquiry-preview .form-message{margin:0;color:#d8d1c5;font-size:12px}
+.catalogue-card[hidden],.collection-card[hidden],.product-card[hidden]{display:none!important}
+@media(max-width:720px){
+  .filter-result-count{margin-top:-12px}
+  .enquiry-preview{padding:14px}
+  .enquiry-copy{width:100%;justify-content:center}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+  .skip-link{transition:none}
+}
+
+
+/* Added catalogue discovery, product detail, curtain enquiry, inspiration and About pages */
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.catalogue-tools{display:grid;grid-template-columns:minmax(220px,1fr) auto;gap:16px;margin:28px 0 20px;align-items:end}
+.search-field{display:flex;align-items:center;gap:12px;min-height:48px;padding:0 15px;border:1px solid var(--line);background:var(--paper)}
+.search-field i{color:var(--muted)}.search-field input{width:100%;min-width:0;border:0;outline:0;background:transparent;color:var(--ink);font:14px var(--sans)}
+.sort-field{display:flex;align-items:center;gap:12px;color:var(--muted);font-size:12px}.sort-field select,.builder-form select,.builder-form input,.builder-form textarea{min-height:44px;padding:10px 12px;border:1px solid var(--line);border-radius:0;background:var(--paper);color:var(--ink);font:13px var(--sans);width:100%}
+.product-title-link{color:inherit;text-decoration:none}.product-title-link:hover{color:var(--gold-dark)}.detail-link{display:inline-flex;margin-top:8px}.catalogue-card .catalogue-info{align-content:start}
+.curtain-builder{background:#f0ece4}.curtain-builder-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(32px,7vw,90px);align-items:start}.curtain-builder-copy h2,.about-hero h1,.projects-hero h1{font:400 clamp(38px,5vw,64px)/1.08 var(--serif);letter-spacing:-.04em;margin:15px 0 20px}.curtain-builder-copy h2 em,.about-hero h1 em,.projects-hero h1 em{color:var(--gold-dark);font-style:italic}.curtain-builder-copy>p:not(.eyebrow),.projects-hero .wrap>p:last-child{color:var(--muted);line-height:1.8}.builder-note{display:flex;gap:12px;margin-top:26px;padding:17px;border:1px solid var(--line);font-size:12px;line-height:1.7;color:var(--muted)}.builder-note i{color:var(--gold-dark);font-size:18px}
+.builder-form{padding:clamp(20px,4vw,38px);background:#fffdfa;border:1px solid var(--line)}.builder-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.builder-form label,.builder-result label{display:grid;gap:8px;font-size:12px;color:var(--ink);font-weight:600}.builder-form .builder-full{grid-column:1/-1}.builder-form textarea{resize:vertical}.builder-form>.button{margin-top:22px}.builder-result{display:grid;gap:12px;margin-top:22px;padding-top:20px;border-top:1px solid var(--line)}.builder-result[hidden]{display:none}.builder-result textarea{width:100%;padding:13px;border:1px solid var(--line);background:#f8f5ef;color:var(--ink);font:13px/1.7 var(--sans);resize:vertical}.builder-result .button{justify-self:start}.builder-result .form-message{font-size:12px;color:var(--muted)}
+.detail-shell{padding-top:38px}.back-link{display:inline-flex;gap:10px;color:var(--muted);font-size:12px;text-decoration:none;margin-bottom:28px}.product-detail-layout{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(320px,.92fr);gap:clamp(30px,6vw,82px);align-items:start}.detail-main-image{aspect-ratio:4/4.4;overflow:hidden;background:#e9e3d9}.detail-main-image img{width:100%;height:100%;object-fit:cover;display:block}.detail-thumbnails{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;margin-top:12px}.detail-thumb{padding:0;border:1px solid transparent;aspect-ratio:1;overflow:hidden;background:#eee8df;cursor:pointer}.detail-thumb.is-active{border:2px solid var(--gold-dark)}.detail-thumb img{width:100%;height:100%;object-fit:cover;display:block}.detail-image-note,.detail-confirm-note{font-size:11px;line-height:1.7;color:var(--muted)}.detail-copy{position:sticky;top:110px}.detail-copy h1{font:400 clamp(34px,4vw,52px)/1.12 var(--serif);letter-spacing:-.035em;margin:14px 0 18px}.detail-description{font-size:17px;line-height:1.75;color:var(--ink)}.detail-copy>p:not(.eyebrow){line-height:1.8;color:var(--muted)}.detail-copy h2{font:400 24px var(--serif);margin-top:28px}.detail-copy .product-details{padding-left:18px;color:var(--muted);line-height:1.9;font-size:13px}.detail-actions{display:flex;flex-wrap:wrap;align-items:center;gap:18px;margin-top:28px}.detail-confirm-note{margin-top:20px}.detail-confirm-note i{margin-right:7px;color:var(--gold-dark)}.detail-guidance{background:#f0ece4}.detail-guidance-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}.detail-guidance h2{font:400 clamp(30px,4vw,45px) var(--serif)}.detail-guidance h2 em{color:var(--gold-dark)}.detail-guidance ul{line-height:2;color:var(--muted)}
+.about-hero{padding-top:70px}.about-hero-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(35px,7vw,90px);align-items:center}.about-hero-grid>div>p:not(.eyebrow){max-width:540px;color:var(--muted);line-height:1.85;margin-bottom:28px}.about-hero-grid>img{width:100%;height:520px;object-fit:cover}.about-offering-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.about-offering-grid article{padding:28px;border:1px solid var(--line);background:#fffdfa}.about-offering-grid article>span{color:var(--gold-dark);font-size:12px}.about-offering-grid h3{font:400 25px var(--serif)}.about-offering-grid p{font-size:13px;line-height:1.8;color:var(--muted)}.about-contact{background:var(--ink);color:#fff}.about-contact-inner{display:flex;justify-content:space-between;align-items:center;gap:35px}.about-contact h2{font:400 clamp(34px,4vw,52px) var(--serif)}.about-contact h2 em{color:#c6a776}.about-contact p:not(.eyebrow){max-width:600px;line-height:1.8;color:#d3cec5}.about-contact-actions{display:flex;flex-direction:column;gap:14px;min-width:220px}.about-transparency p:last-child{max-width:850px;line-height:1.9;color:var(--muted)}
+.projects-hero{padding-bottom:35px}.projects-hero .wrap{max-width:900px}.projects-hero .wrap>p:last-child{max-width:750px}.projects-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:34px 24px}.inspiration-card{background:#fffdfa;border:1px solid var(--line)}.inspiration-card[hidden]{display:none}.inspiration-card>img{display:block;width:100%;aspect-ratio:1.5;object-fit:cover}.inspiration-card>div{padding:22px 24px 25px}.inspiration-card h2{font:400 27px var(--serif);margin:8px 0}.inspiration-card p:not(.eyebrow){color:var(--muted);font-size:13px;line-height:1.75}.project-filters{margin-bottom:20px}.inspiration-disclaimer{font-size:12px;color:var(--muted);margin:14px 0 28px}.inspiration-disclaimer i{margin-right:7px;color:var(--gold-dark)}.project-modal{position:fixed;inset:0;z-index:2000;display:grid;place-items:center;padding:24px;background:rgba(20,19,17,.78)}.project-modal[hidden]{display:none}.project-modal-panel{position:relative;display:grid;grid-template-columns:1.1fr .9fr;max-width:1000px;max-height:90vh;overflow:auto;background:var(--paper)}.project-modal-panel>img{width:100%;height:100%;min-height:400px;object-fit:cover}.project-modal-copy{align-self:center;padding:clamp(24px,4vw,50px)}.project-modal-copy h2{font:400 34px var(--serif)}.project-modal-copy p:not(.eyebrow){line-height:1.8;color:var(--muted)}.project-modal-close{position:absolute;right:12px;top:12px;z-index:2;width:42px;height:42px;border:0;background:#fff;color:var(--ink);font-size:20px;cursor:pointer}.modal-open{overflow:hidden}
+@media(max-width:800px){.curtain-builder-grid,.product-detail-layout,.about-hero-grid,.detail-guidance-grid{grid-template-columns:1fr}.detail-copy{position:static}.about-hero-grid>img{height:380px}.about-contact-inner{align-items:flex-start;flex-direction:column}.about-contact-actions{width:100%}.project-modal-panel{grid-template-columns:1fr}.project-modal-panel>img{min-height:220px;max-height:42vh}.projects-grid{gap:18px}.about-offering-grid{grid-template-columns:1fr}}
+@media(max-width:560px){.catalogue-tools{grid-template-columns:1fr}.sort-field{justify-content:space-between}.sort-field select{max-width:65%}.builder-fields{grid-template-columns:1fr}.builder-form .builder-full{grid-column:auto}.detail-thumbnails{gap:6px}.detail-actions{align-items:stretch;flex-direction:column}.detail-actions .button{justify-content:center}.projects-grid{grid-template-columns:1fr}.about-hero-grid>img{height:300px}.project-modal{padding:12px}.project-modal-copy{padding:22px}.inspiration-card>div{padding:18px}}
+
+/* Expanded product range, advisor profiles and bespoke process sections */
+.product-range-section{background:#f7f4ee}
+.product-range-heading{margin-bottom:36px}
+.product-range-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.range-card{display:grid;grid-template-columns:42px 1fr;gap:14px;min-height:210px;padding:25px 23px;background:var(--paper);border:1px solid var(--line);transition:transform .25s,border-color .25s,box-shadow .25s}
+.range-card:hover{transform:translateY(-3px);border-color:#cbb58f;box-shadow:0 12px 28px rgba(47,39,25,.06)}
+.range-number{font-size:10px;letter-spacing:1px;color:var(--gold-dark);padding-top:5px}
+.range-card h3{font:500 23px/1.25 var(--serif);margin:0 0 12px}
+.range-card p{font-size:12px;line-height:1.9;color:var(--muted);margin:0 0 17px}
+.range-card .text-link{font-size:10px;gap:9px}
+.range-card-wide{grid-column:span 2}
+.range-note{margin:22px 0 0;color:var(--muted);font-size:11px;line-height:1.7}.range-note i{color:var(--gold-dark);margin-right:7px}
+.advisors-section{background:var(--paper)}
+.advisor-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.advisor-card{background:#f8f6f1;border:1px solid var(--line);min-width:0}
+.advisor-photo{height:360px;position:relative;overflow:hidden;background:#e5ded2}
+.advisor-photo img{width:100%;height:100%;object-fit:cover;object-position:center 25%;transition:transform .55s}
+.advisor-card:hover .advisor-photo img{transform:scale(1.035)}
+.advisor-photo span{position:absolute;left:15px;bottom:15px;padding:7px 10px;background:rgba(38,37,31,.82);color:#fff;font-size:9px;letter-spacing:1.4px}
+.advisor-copy{padding:23px 24px 27px}
+.advisor-copy h3{font:500 27px/1.25 var(--serif);margin:0 0 5px}
+.advisor-role{font-size:10px;letter-spacing:1.4px;text-transform:uppercase;color:var(--gold-dark);margin:0 0 15px}
+.advisor-copy p:last-child{font-size:12px;line-height:1.85;color:var(--muted);margin:0}
+.advisor-disclaimer{margin:20px 0 0;color:var(--muted);font-size:10px;line-height:1.7}
+.process-section{background:#efebe3}
+.process-layout{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(40px,8vw,110px);align-items:start}
+.process-intro{position:sticky;top:125px}
+.process-intro h2{font:500 clamp(36px,4.4vw,54px)/1.16 var(--serif);letter-spacing:-.7px;margin:0 0 20px}
+.process-intro h2 em{color:var(--gold-dark)}
+.process-intro>p:not(.eyebrow){font-size:13px;line-height:1.95;color:var(--muted);margin:0 0 27px}
+.process-steps{border-top:1px solid #d8d0c3}
+.process-step{display:grid;grid-template-columns:55px 1fr;gap:18px;padding:27px 0;border-bottom:1px solid #d8d0c3}
+.process-step>span{font:italic 22px var(--serif);color:var(--gold-dark);padding-top:2px}
+.process-step h3{font:500 23px/1.3 var(--serif);margin:0 0 8px}
+.process-step p{font-size:12px;line-height:1.9;color:var(--muted);margin:0;max-width:540px}
+@media(max-width:900px){.product-range-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.range-card-wide{grid-column:span 2}.advisor-photo{height:300px}.process-layout{grid-template-columns:1fr}.process-intro{position:static;max-width:650px}}
+@media(max-width:620px){.product-range-grid,.advisor-grid{grid-template-columns:1fr}.range-card,.range-card-wide{grid-column:auto;min-height:0;padding:22px 19px}.advisor-photo{height:390px}.advisor-copy{padding:21px}.process-step{grid-template-columns:36px 1fr;gap:12px;padding:23px 0}.process-step h3{font-size:21px}}
+
+
+/* Enquiry actions: copy remains available alongside WhatsApp hand-off. */
+.enquiry-actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.button-whatsapp{display:inline-flex;align-items:center;justify-content:center;gap:9px;background:#267b50;color:#fff;border:1px solid #267b50;padding:13px 18px;font:inherit;font-size:11px;font-weight:700;cursor:pointer;text-decoration:none;transition:background .2s,border-color .2s}
+.button-whatsapp:hover{background:#1f6742;border-color:#1f6742}
+@media(max-width:520px){.enquiry-actions{align-items:stretch;flex-direction:column}.enquiry-actions .button{width:100%;justify-content:center}}
+
+
+/* Contact shortcuts: verified studio phone and WhatsApp */
+.nav-call{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:10px 13px;border:1px solid var(--gold-dark,#9b7848);color:var(--gold-dark,#9b7848);font-size:11px;letter-spacing:.3px;white-space:nowrap;transition:background .2s,color .2s}
+.nav-call:hover{background:var(--gold-dark,#9b7848);color:#fff}
+.footer-contact{display:flex;flex-direction:column;gap:9px;font-size:11px}
+.footer-contact a{color:#e0d7c8;white-space:nowrap}
+.footer-contact a:hover{color:#fff}
+.footer-contact i{margin-right:7px;color:#c6a776}
+.floating-call{position:fixed;right:22px;bottom:22px;z-index:50;display:inline-flex;align-items:center;gap:10px;padding:14px 19px;background:#282720;color:#fff;border:1px solid #c6a776;box-shadow:0 8px 28px #0002;font-size:12px;letter-spacing:.35px}
+.floating-call i{color:#d4b579}
+.floating-call:hover{background:#a18352;color:#fff}
+@media(max-width:720px){.nav-call{justify-content:center;margin-top:10px;padding:13px}.footer-contact{gap:10px}.floating-call{right:14px;bottom:14px;padding:13px 16px;border-radius:30px;box-shadow:0 5px 20px #0003}.footer-top{gap:17px}}
+
+
+
+
+/* iOS-inspired translucent contact dock and on-page WhatsApp mini panel. */
+.contact-dock{
+  position:fixed;right:22px;top:108px;z-index:120;display:flex;flex-direction:column;gap:8px;padding:8px;
+  border:1px solid rgba(255,255,255,.72);border-radius:30px;
+  background:rgba(250,248,242,.58);-webkit-backdrop-filter:blur(24px) saturate(1.55);backdrop-filter:blur(24px) saturate(1.55);
+  box-shadow:0 12px 34px rgba(55,45,31,.13),inset 0 1px 0 rgba(255,255,255,.9);isolation:isolate
+}
+.contact-dock:before{content:"";position:absolute;inset:0;border-radius:inherit;padding:1px;background:linear-gradient(145deg,rgba(255,255,255,.9),rgba(193,169,132,.26),rgba(255,255,255,.45));-webkit-mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);-webkit-mask-composite:xor;mask-composite:exclude;pointer-events:none;z-index:-1}
+.contact-dock-link{appearance:none;position:relative;display:grid;place-items:center;width:45px;height:45px;padding:0;border:1px solid rgba(224,214,198,.72);border-radius:50%;background:rgba(255,254,250,.64);color:#876d49;text-decoration:none;box-shadow:0 3px 10px rgba(57,46,30,.055),inset 0 1px 0 rgba(255,255,255,.9);cursor:pointer;transition:transform .22s ease,background .22s ease,color .22s ease,border-color .22s ease,box-shadow .22s ease}
+.contact-dock-link>i{font-size:15px}.contact-dock-link:hover,.contact-dock-link:focus-visible,.contact-dock-link[aria-expanded="true"]{transform:translateX(-3px);background:rgba(235,224,204,.82);color:#604a2d;border-color:rgba(187,157,111,.7);box-shadow:0 6px 16px rgba(80,62,36,.12);outline:none}
+.contact-dock-whatsapp{color:#528269;background:rgba(242,249,241,.72);border-color:rgba(198,220,198,.8)}.contact-dock-whatsapp:hover,.contact-dock-whatsapp:focus-visible,.contact-dock-whatsapp[aria-expanded="true"]{background:rgba(220,239,219,.9);color:#286344;border-color:#b6d2bb}
+.contact-dock-label{position:absolute;right:54px;top:50%;transform:translate(5px,-50%);padding:8px 11px;border:1px solid rgba(224,210,186,.82);border-radius:11px;background:rgba(255,253,248,.84);-webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px);color:#5b4a31;box-shadow:0 5px 18px rgba(40,32,20,.09);font-size:10px;letter-spacing:.06em;white-space:nowrap;opacity:0;pointer-events:none;transition:opacity .18s ease,transform .18s ease}
+.contact-dock-link:hover .contact-dock-label,.contact-dock-link:focus-visible .contact-dock-label{opacity:1;transform:translate(0,-50%)}
+.whatsapp-mini-panel{position:fixed;right:88px;top:108px;z-index:119;width:min(350px,calc(100vw - 32px));padding:15px;border:1px solid rgba(255,255,255,.82);border-radius:25px;background:rgba(250,248,243,.78);-webkit-backdrop-filter:blur(28px) saturate(1.55);backdrop-filter:blur(28px) saturate(1.55);box-shadow:0 22px 65px rgba(44,36,26,.19),inset 0 1px 0 rgba(255,255,255,.92);transform-origin:top right;animation:whatsappPanelIn .24s cubic-bezier(.2,.75,.25,1) both}
+.whatsapp-mini-panel[hidden]{display:none!important}@keyframes whatsappPanelIn{from{opacity:0;transform:translateY(-7px) scale(.97)}to{opacity:1;transform:translateY(0) scale(1)}}
+.whatsapp-mini-top{display:flex;align-items:center;gap:11px;padding:4px 3px 13px;border-bottom:1px solid rgba(210,199,180,.62)}.whatsapp-mini-mark{width:41px;height:41px;display:grid;place-items:center;border-radius:15px;background:linear-gradient(145deg,#d9ead9,#f6fbf3);color:#38835b;font-size:20px;box-shadow:inset 0 1px 0 #fff}.whatsapp-mini-top>div{flex:1}.whatsapp-mini-top p{margin:0;color:#3b3932;font-size:10px;letter-spacing:.11em;font-weight:700}.whatsapp-mini-top span:not(.whatsapp-mini-mark){font-size:11px;color:#82796b}.whatsapp-mini-close{width:30px;height:30px;border:1px solid rgba(214,204,188,.7);border-radius:50%;background:rgba(255,255,255,.5);color:#756a59;cursor:pointer}
+.whatsapp-mini-chat{margin:14px 0 13px;padding:12px 13px;border:1px solid rgba(214,225,207,.72);border-radius:17px 17px 17px 5px;background:rgba(239,246,234,.73);color:#4b5146}.whatsapp-mini-time{display:block;font-size:9px;letter-spacing:.04em;color:#8b8b7c;margin-bottom:7px}.whatsapp-mini-chat p{font-size:12px;line-height:1.65;margin:0}.whatsapp-mini-chat small{display:block;text-align:right;font-size:9px;color:#89917f;margin-top:7px}.whatsapp-mini-label{display:block;margin-bottom:6px;font-size:10px;font-weight:700;letter-spacing:.04em;color:#635b4e}.whatsapp-mini-panel textarea{width:100%;min-height:78px;resize:vertical;padding:11px 12px;border:1px solid rgba(213,202,184,.9);border-radius:14px;background:rgba(255,255,255,.58);color:#37342e;font:400 12px/1.6 var(--sans);outline:none}.whatsapp-mini-panel textarea:focus{border-color:#bca37c;box-shadow:0 0 0 3px rgba(188,163,124,.15)}.whatsapp-mini-send{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;margin-top:10px;padding:12px 14px;border:1px solid rgba(71,129,89,.28);border-radius:14px;background:linear-gradient(135deg,rgba(65,143,91,.95),rgba(47,119,76,.95));color:#fff;font:600 11px var(--sans);cursor:pointer;box-shadow:0 6px 14px rgba(52,116,71,.18);transition:transform .2s,filter .2s}.whatsapp-mini-send:hover{transform:translateY(-1px);filter:brightness(1.04)}.whatsapp-mini-note{margin:9px 2px 1px;text-align:center;font-size:9px;line-height:1.5;color:#8a8174}
+@media(max-width:620px){.contact-dock{top:88px;right:10px;gap:5px;padding:6px;border-radius:25px}.contact-dock-link{width:41px;height:41px}.contact-dock-label{display:none}.whatsapp-mini-panel{top:88px;right:61px;width:min(330px,calc(100vw - 80px));max-height:calc(100dvh - 108px);overflow:auto;padding:12px;border-radius:22px}.whatsapp-mini-chat p{font-size:11px}}
+@media(prefers-reduced-motion:reduce){.contact-dock-link,.contact-dock-label,.whatsapp-mini-send{transition:none}.whatsapp-mini-panel{animation:none}}
+
+.contact-page-hero{padding:85px 0 75px;background:linear-gradient(110deg,rgba(35,34,29,.97),rgba(62,56,45,.92)),url('https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1800&q=80') center/cover;color:#fff}
+.contact-page-hero h1{font:400 clamp(48px,6vw,78px)/1.04 var(--serif);letter-spacing:-1.8px;margin:15px 0 20px;max-width:760px}
+.contact-page-hero h1 em{color:#d5b47e;font-weight:400}
+.contact-page-hero>.wrap>p:not(.eyebrow){max-width:620px;color:#d7d0c4;font-size:14px;line-height:1.9}
+.contact-page-direct{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.contact-page-direct>a{display:flex;align-items:center;gap:13px;min-width:220px;padding:14px 18px;border:1px solid rgba(214,190,151,.35);background:rgba(255,255,255,.04);color:#fff;text-decoration:none;transition:background .2s,border-color .2s}
+.contact-page-direct>a>i{display:grid;place-items:center;width:38px;height:38px;border:1px solid #bfa071;border-radius:50%;color:#d5b47e;font-size:15px}
+.contact-page-direct>a span{display:grid;gap:3px}.contact-page-direct small{font-size:10px;color:#c9c1b3;letter-spacing:.04em}.contact-page-direct strong{font-size:12px;font-weight:600}.contact-page-direct>a:hover{background:rgba(197,165,116,.13);border-color:#c5a574}
+.contact-page-section{background:#f7f4ed}
+.contact-page-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(35px,7vw,95px);align-items:start}
+.contact-page-aside{position:sticky;top:110px}.contact-page-aside h2{font:400 clamp(34px,4vw,52px)/1.12 var(--serif);margin:12px 0 20px}.contact-page-aside h2 em{color:var(--gold-dark);font-weight:400}.contact-page-aside>p:not(.eyebrow){font-size:13px;line-height:1.9;color:var(--muted);max-width:440px}
+.contact-promise{display:flex;gap:13px;margin-top:24px;max-width:430px}.contact-promise>span{display:grid;place-items:center;flex:0 0 34px;height:34px;border:1px solid #d4c3a7;border-radius:50%;color:#8e7146}.contact-promise strong{font:500 17px var(--serif)}.contact-promise p{font-size:11px;line-height:1.75;color:var(--muted);margin:4px 0 0}
+.contact-page-form{padding:clamp(22px,4vw,42px);background:#fffdfa;border:1px solid #e5ded2;box-shadow:0 18px 55px rgba(43,37,28,.06)}
+.contact-page-form-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-bottom:18px;border-bottom:1px solid #e8e0d4;margin-bottom:24px}.contact-page-form-heading span{font-size:10px;letter-spacing:.13em;color:#96784d;font-weight:700}.contact-page-form-heading p{font-size:10px;color:var(--muted);margin:0}
+.contact-page-fields{display:grid;grid-template-columns:1fr 1fr;gap:18px 14px}.contact-page-fields label,.standalone-preview>label{display:grid;gap:8px;font-size:11px;color:#4c473e;font-weight:600}.contact-page-fields input,.contact-page-fields select,.contact-page-fields textarea,.standalone-preview textarea{width:100%;min-height:47px;padding:12px 13px;border:1px solid #ddd5c8;background:#fff;color:#292821;border-radius:0;font:400 12px var(--sans);outline-offset:2px}.contact-page-fields textarea,.standalone-preview textarea{resize:vertical;line-height:1.7}.contact-page-fields input:focus,.contact-page-fields select:focus,.contact-page-fields textarea:focus,.standalone-preview textarea:focus{outline:1px solid #b89b6c;border-color:#b89b6c}.contact-page-full{grid-column:1/-1}.contact-page-submit{margin-top:24px;min-width:220px}.standalone-preview{padding-top:24px;margin-top:24px;border-top:1px solid #e8e0d4}.standalone-preview textarea{margin:10px 0 14px;min-height:190px}.standalone-preview .enquiry-actions{display:flex;gap:10px;flex-wrap:wrap}
+@media(max-width:800px){.contact-page-grid{grid-template-columns:1fr}.contact-page-aside{position:static}.contact-page-hero{padding:65px 0 55px}}
+@media(max-width:620px){.contact-dock{top:88px;right:10px;bottom:auto;transform:none;gap:5px;padding:5px;border-radius:23px}.contact-dock-link{width:41px;height:41px}.contact-dock-label{display:none}.contact-page-direct{flex-direction:column}.contact-page-direct>a{width:100%}.contact-page-fields{grid-template-columns:1fr;gap:15px}.contact-page-full{grid-column:auto}.contact-page-form{padding:22px 17px}.contact-page-form-heading{align-items:flex-start;flex-direction:column;gap:6px}.contact-page-submit{width:100%;justify-content:center}.standalone-preview .enquiry-actions{flex-direction:column}.standalone-preview .enquiry-actions .button{width:100%;justify-content:center}}
+@media(prefers-reduced-motion:reduce){.contact-dock-link,.contact-dock-label{transition:none}}
+
+/* Refinements: shorter catalogue cards, side thumbnails, and higher-contrast quick actions. */
+.catalogue-image{height:185px}
+.catalogue-info{padding:16px 18px 18px}
+.catalogue-info h3{font-size:21px;margin-bottom:6px}
+.catalogue-info>p:not(.eyebrow){min-height:46px;margin-bottom:12px;line-height:1.65}
+.catalogue-info .eyebrow{margin-bottom:6px}
+.catalogue-info .text-link{font-size:11px}
+
+/* Product detail gallery: keep the main image and stack alternate views on its left. */
+.detail-gallery{display:grid;grid-template-columns:64px minmax(0,1fr);gap:10px 14px;align-items:start}
+.detail-main-image{grid-column:2;grid-row:1;aspect-ratio:1/1.02;max-height:calc(100vh - 190px);min-height:300px}
+.detail-thumbnails{grid-column:1;grid-row:1;display:flex;flex-direction:column;gap:9px;margin:0;max-height:calc(100vh - 190px);overflow-y:auto;padding:1px 3px 1px 1px}
+.detail-thumb{flex:0 0 62px;width:60px;height:60px;aspect-ratio:1;border:1px solid var(--line);border-radius:2px}
+.detail-image-note{grid-column:1/-1;margin:2px 0 0}
+
+/* Dark translucent buttons remain visible over light, dark, and mixed imagery. */
+.contact-dock{background:rgba(38,37,31,.88);border-color:rgba(255,255,255,.55);box-shadow:0 12px 34px rgba(20,18,14,.22),inset 0 1px 0 rgba(255,255,255,.28)}
+.contact-dock:before{background:linear-gradient(145deg,rgba(255,255,255,.7),rgba(213,177,109,.38),rgba(255,255,255,.18))}
+.contact-dock-link{background:rgba(255,254,250,.96);color:#3c372e;border-color:rgba(255,255,255,.8);box-shadow:0 3px 10px rgba(0,0,0,.16),inset 0 1px 0 #fff}
+.contact-dock-link:hover,.contact-dock-link:focus-visible,.contact-dock-link[aria-expanded="true"]{background:#d9bd8b;color:#28251f;border-color:#fff}
+.contact-dock-whatsapp{background:#e5f4e7;color:#17683a;border-color:#b7d8bd}
+.contact-dock-whatsapp:hover,.contact-dock-whatsapp:focus-visible,.contact-dock-whatsapp[aria-expanded="true"]{background:#c7ebcf;color:#104d2b;border-color:#fff}
+.contact-dock-label{background:rgba(38,37,31,.96);border-color:rgba(255,255,255,.35);color:#fff}
+@media(max-width:800px){.detail-gallery{grid-template-columns:54px minmax(0,1fr);gap:8px}.detail-thumb{flex-basis:50px;width:48px;height:48px}.detail-main-image{min-height:260px;max-height:none}.detail-thumbnails{max-height:none}}
+@media(max-width:720px){.catalogue-image{height:200px}.catalogue-info{padding:15px}.catalogue-info>p:not(.eyebrow){min-height:0}.detail-gallery{grid-template-columns:1fr}.detail-main-image{grid-column:1;grid-row:1;aspect-ratio:1/1;min-height:0}.detail-thumbnails{grid-column:1;grid-row:2;flex-direction:row;overflow-x:auto;overflow-y:hidden;padding-bottom:3px}.detail-thumb{flex:0 0 58px;width:58px;height:58px}.detail-image-note{grid-column:1}}
+
+/* ---- Improvements: readability, active nav state ---- */
+.brand small{font-size:9px;letter-spacing:1px}
+.eyebrow{font-size:11px}
+.filter-tab{font-size:12px}
+.footer-links a,.footer-bottom,.form-message,.hero-note,.hero-scroll,.curtain-tags span,.image-number,.photo-caption span{font-size:11px}
+.footer-bottom,.form-message{font-size:12px}
+.contact-dock-label,.whatsapp-mini-note,.whatsapp-mini-time,.whatsapp-mini-chat small,.whatsapp-mini-label{font-size:11px}
+.nav-links>a[aria-current="page"]:not(.nav-cta){color:var(--gold-dark);box-shadow:inset 0 -2px 0 var(--gold)}
+@media(max-width:720px){.nav-links>a[aria-current="page"]:not(.nav-cta){box-shadow:none}}
+.contact-form input:invalid:not(:placeholder-shown):not(:focus),.contact-page-fields input:invalid:not(:placeholder-shown):not(:focus){border-color:#c0554a}
+
+/* ---- Inspiration page: smaller images so each idea fits on screen without scrolling ---- */
+.projects-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:24px 20px}
+.inspiration-card>img{aspect-ratio:4/3;max-height:260px}
+.inspiration-card>div{padding:16px 18px 20px}
+.inspiration-card h2{font-size:22px}
+.inspiration-card p:not(.eyebrow){font-size:12.5px;line-height:1.65}
+.project-modal-panel{max-width:900px;max-height:92vh}
+.project-modal-panel>img{min-height:0;height:min(64vh,480px);max-height:64vh}
+@media(max-width:1000px){.projects-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:800px){.project-modal-panel>img{height:auto;max-height:36vh;min-height:0}}
+@media(max-width:560px){.projects-grid{grid-template-columns:1fr}.inspiration-card>img{max-height:220px}}
+
+/* ---- Larger header text ---- */
+.brand strong{font-size:19px}
+.brand small{font-size:10px;letter-spacing:1.1px}
+.nav-links>a:not(.nav-cta){font-size:14px}
+.nav-cta{font-size:13.5px;padding:13px 19px}
+.navbar{min-height:92px}
+@media(max-width:1000px){.nav-links{gap:18px}.nav-links>a:not(.nav-cta){font-size:13px}.nav-cta{font-size:12.5px;padding:11px 14px}.brand strong{font-size:17px}}
+@media(max-width:720px){.nav-links>a:not(.nav-cta){font-size:16px;padding:14px 0}.nav-cta{font-size:15px}.brand strong{font-size:16px}.brand small{font-size:9px;letter-spacing:.8px}.navbar{min-height:80px}}
+
+
+/* ==========================================================================
+   GALAXY LIVING POLISH LAYER
+   These overrides are intentionally grouped at the end so they take priority
+   over earlier styles. Each declaration below explains what it changes.
+   ========================================================================== */
+
+/* The footer uses a dark, framed panel like the supplied visual reference. */
+.premium-footer {
+  position: relative; /* Creates a positioning context for the backdrop layer. */
+  isolation: isolate; /* Keeps the decorative backdrop behind the footer panel. */
+  padding: clamp(36px, 6vw, 84px) 24px 28px; /* Gives the footer breathing room on every screen. */
+  background: #e9e5dc; /* Warm neutral background makes the dark panel stand out. */
+  overflow: hidden; /* Prevents decorative shapes from creating horizontal scrolling. */
+}
+
+/* Soft decorative backdrop suggests interior textures without reducing text contrast. */
+.premium-footer .footer-backdrop {
+  position: absolute; /* Places the decoration behind the main panel. */
+  inset: 0; /* Stretches the decoration to every edge of the footer. */
+  z-index: -1; /* Keeps the decoration behind all readable content. */
+  background: radial-gradient(ellipse at 12% 10%, rgba(255,255,255,.9), transparent 42%), linear-gradient(135deg, #d9d3c8, #f2eee6 52%, #d0c8bb); /* Creates a soft linen-like neutral backdrop. */
+}
+
+/* The dark inset panel recreates the reference's premium framed footer. */
+.premium-footer-panel {
+  width: min(1360px, 100%); /* Stops the footer from becoming too wide on large displays. */
+  margin: 0 auto; /* Centers the panel horizontally. */
+  color: #f8f4eb; /* Keeps footer text bright and readable. */
+  background: #171815; /* Uses a warm near-black rather than harsh pure black. */
+  border: 8px solid #252622; /* Adds the thick frame seen in the reference image. */
+  border-radius: 12px; /* Softens the frame corners. */
+  box-shadow: 0 22px 55px rgba(26, 24, 20, .16); /* Lifts the panel gently from the background. */
+}
+
+/* Four-column footer layout: brand, exploration, help, and contact. */
+.premium-footer-main {
+  display: grid; /* Places footer groups into a flexible grid. */
+  grid-template-columns: 1.35fr .8fr .95fr 1fr; /* Gives the brand and contact columns extra room. */
+  gap: clamp(28px, 4vw, 64px); /* Adds space between each footer group. */
+  padding: clamp(30px, 5vw, 68px); /* Keeps text away from the panel edges. */
+}
+
+/* Footer logo aligns to the top of its column. */
+.premium-footer .footer-brand {
+  color: #fffaf0; /* Makes the footer wordmark readable on the dark background. */
+  margin-bottom: 22px; /* Separates the wordmark from the brand description. */
+}
+
+/* Footer logo's small descriptor is kept legible. */
+.premium-footer .footer-brand small {
+  color: #e0d4bd; /* Uses warm ivory instead of low-contrast grey. */
+  letter-spacing: .12em; /* Gives the descriptor a crafted editorial feel. */
+}
+
+/* Brand paragraph sets a comfortable measure for easy reading. */
+.premium-footer-brand > p,
+.premium-footer-contact > p {
+  max-width: 34ch; /* Prevents long lines from becoming difficult to scan. */
+  margin: 0 0 24px; /* Adds spacing below the descriptive paragraph. */
+  color: #e2ded5; /* Maintains strong contrast against the dark panel. */
+  font-size: 15px; /* Keeps supporting text comfortably readable. */
+  line-height: 1.8; /* Gives multi-line text enough vertical breathing room. */
+}
+
+/* Each footer navigation group has a clear, uppercase heading. */
+.premium-footer-column h2 {
+  margin: 3px 0 22px; /* Aligns headings and creates space before the links. */
+  color: #fffaf0; /* Makes headings brighter than supporting text. */
+  font-size: 17px; /* Keeps group labels prominent without overpowering the logo. */
+  font-weight: 700; /* Gives headings strong visual hierarchy. */
+  letter-spacing: .045em; /* Adds a subtle editorial character. */
+  text-transform: uppercase; /* Creates consistent heading treatment across columns. */
+}
+
+/* Footer links are stacked for quick scanning. */
+.premium-footer-column > a {
+  display: flex; /* Lets icons and link text align neatly in contact links. */
+  align-items: center; /* Vertically aligns any icon with its label. */
+  gap: 10px; /* Leaves space between icons and their labels. */
+  width: fit-content; /* Keeps the focus and hover area close to each link. */
+  margin: 0 0 13px; /* Separates links so they are easy to target. */
+  color: #eee9df; /* Uses light text with strong contrast on the dark panel. */
+  font-size: 14px; /* Maintains readable navigation without crowding the footer. */
+  line-height: 1.55; /* Keeps wrapped contact links comfortable to read. */
+  text-decoration: none; /* Removes browser underlines until interaction. */
+  transition: color .2s ease, transform .2s ease; /* Makes hover feedback feel smooth. */
+}
+
+/* Hover and keyboard focus both show a clear, accessible state. */
+.premium-footer-column > a:hover,
+.premium-footer-column > a:focus-visible,
+.premium-footer-bottom a:hover,
+.premium-footer-bottom a:focus-visible {
+  color: #f0c98d; /* Uses the lighter champagne accent for interactive states. */
+  text-decoration: underline; /* Makes the active link obvious without relying on color alone. */
+  text-underline-offset: 4px; /* Separates the underline from the letter shapes. */
+}
+
+/* Circular contact shortcuts sit below the brand description. */
+.footer-social-links {
+  display: flex; /* Places the contact shortcuts in one row. */
+  flex-wrap: wrap; /* Allows shortcuts to wrap on narrow layouts. */
+  gap: 12px; /* Adds space between circular shortcuts. */
+  margin-top: 28px; /* Separates the icons from the brand copy. */
+}
+
+/* Each shortcut is a comfortable circular touch target. */
+.footer-social-links a {
+  display: inline-grid; /* Centers each icon inside its circle. */
+  width: 48px; /* Gives the clickable circle a comfortable width. */
+  height: 48px; /* Gives the clickable circle a comfortable height. */
+  place-items: center; /* Centers the icon both vertically and horizontally. */
+  border: 1px solid #82765f; /* Draws a restrained warm outline around the circle. */
+  border-radius: 50%; /* Makes each shortcut circular. */
+  color: #f2d19a; /* Gives the icons a soft champagne accent. */
+  font-size: 18px; /* Makes the icons easy to recognize. */
+  transition: background .2s ease, color .2s ease, border-color .2s ease; /* Smooths interaction feedback. */
+}
+
+/* The filled hover state clearly communicates interactivity. */
+.footer-social-links a:hover,
+.footer-social-links a:focus-visible {
+  color: #171815; /* Ensures the icon contrasts with its light hover background. */
+  background: #f0c98d; /* Fills the circle with champagne on hover or keyboard focus. */
+  border-color: #f0c98d; /* Keeps the outline consistent with the filled background. */
+}
+
+/* Contact CTA is styled as a subtle outlined link, not a competing large button. */
+.premium-footer-column > .footer-enquiry-link {
+  margin-top: 22px; /* Separates the enquiry CTA from the contact details. */
+  padding: 11px 15px; /* Gives the CTA a larger touch area. */
+  border: 1px solid #c5a36b; /* Frames the CTA in the brand accent. */
+  border-radius: 3px; /* Uses a restrained, premium corner radius. */
+  color: #ffe1ad; /* Makes the CTA text stand out clearly. */
+}
+
+/* Footer bottom bar separates copyright details from the main columns. */
+.premium-footer-bottom {
+  display: flex; /* Places copyright, tagline, and back-to-top in a row. */
+  align-items: center; /* Vertically centers bottom-bar content. */
+  justify-content: space-between; /* Spreads the items across the panel. */
+  flex-wrap: wrap; /* Lets the content wrap on tablet and mobile screens. */
+  gap: 14px 24px; /* Adds horizontal and vertical spacing when wrapping occurs. */
+  padding: 24px clamp(30px, 5vw, 68px); /* Matches the horizontal inset of the main content. */
+  border-top: 1px solid #34342e; /* Visually separates the copyright strip. */
+  background: #0d0e0c; /* Gives the lower strip a slightly deeper background. */
+  color: #eee9df; /* Keeps copyright text readable. */
+  font-size: 13px; /* Keeps secondary legal text modest but legible. */
+}
+
+/* Footer buttons use lighter champagne tones on varied page backgrounds. */
+.button-gold,
+.site-header .button,
+.site-header .button-gold,
+.contact-page-submit {
+  color: #262016; /* Dark text remains readable on the lighter champagne fill. */
+  background: #e6c58f; /* Light champagne is visible on cream, white, and image backgrounds. */
+  border-color: #d7b477; /* Gives the button a slightly deeper, defined edge. */
+}
+
+/* Hover state darkens the champagne slightly while preserving a premium look. */
+.button-gold:hover,
+.button-gold:focus-visible,
+.site-header .button:hover,
+.site-header .button:focus-visible,
+.contact-page-submit:hover,
+.contact-page-submit:focus-visible {
+  color: #211b12; /* Maintains readable button text during interaction. */
+  background: #f0d7aa; /* Lightens the fill for a responsive hover state. */
+  border-color: #c9a36a; /* Keeps the border visible against the lighter fill. */
+}
+
+/* Floating call, form, and WhatsApp buttons share one softer accent palette. */
+.contact-dock-link {
+  color: #282117; /* Provides dark icon contrast on the lighter background. */
+  background: #e6c58f; /* Makes each floating contact action visible over varied content. */
+  border-color: #d7b477; /* Defines the button edge without harsh contrast. */
+}
+
+/* The floating WhatsApp button follows the same unified visual language. */
+.contact-dock-whatsapp {
+  color: #282117; /* Avoids the overly bright green that clashes with the brand palette. */
+  background: #e6c58f; /* Keeps all three contact actions visually consistent. */
+}
+
+/* Keyboard focus is visible on all key interactive elements. */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid #b58b55; /* Draws a visible focus ring for keyboard users. */
+  outline-offset: 3px; /* Separates the ring from the control edge. */
+}
+
+/* Form fields show a clear invalid state after browser validation. */
+.contact-form input:invalid:not(:placeholder-shown),
+.contact-form textarea:invalid:not(:placeholder-shown),
+.contact-page-form input:invalid:not(:placeholder-shown),
+.contact-page-form textarea:invalid:not(:placeholder-shown),
+.contact-page-form select:invalid {
+  border-color: #b94a48; /* Uses a clear error border for invalid fields. */
+}
+
+/* The additional homepage textarea matches the rest of the enquiry form. */
+.contact-form textarea {
+  display: block; /* Makes the message field occupy its own line. */
+  width: 100%; /* Aligns its edges with the other form controls. */
+  min-height: 112px; /* Gives visitors enough room to describe a project. */
+  padding: 13px 15px; /* Keeps entered text away from the textarea border. */
+  border: 1px solid var(--line); /* Matches the site's other field borders. */
+  border-radius: 3px; /* Uses the same restrained corner radius as the form. */
+  color: var(--ink); /* Keeps typed text dark and readable. */
+  background: #fffefa; /* Makes the input area distinct from the page background. */
+  font: inherit; /* Reuses the site's typography for a consistent form. */
+  resize: vertical; /* Lets visitors make the message box taller if needed. */
+}
+
+/* Tablet layout: reduce the footer to two columns before moving to mobile. */
+@media (max-width: 900px) {
+  .premium-footer-main {
+    grid-template-columns: repeat(2, minmax(0, 1fr)); /* Gives each group enough room on tablet screens. */
+    gap: 36px; /* Keeps clear separation between the two-column groups. */
+  }
+}
+
+/* Mobile layout: stack all footer groups and simplify the bottom strip. */
+@media (max-width: 560px) {
+  .premium-footer {
+    padding: 24px 12px; /* Reduces outer spacing on small screens. */
+  }
+  .premium-footer-panel {
+    border-width: 4px; /* Keeps the framed effect without taking too much screen space. */
+  }
+  .premium-footer-main {
+    grid-template-columns: 1fr; /* Stacks brand, navigation, help, and contact vertically. */
+    gap: 28px; /* Keeps each stacked section visually separate. */
+    padding: 28px 22px; /* Preserves comfortable side padding. */
+  }
+  .premium-footer-bottom {
+    flex-direction: column; /* Places copyright details on separate lines. */
+    align-items: flex-start; /* Aligns all bottom-bar text to the left. */
+    padding: 22px; /* Matches the main footer inset. */
+  }
+}
+
+/* =====================================================================
+   FINAL USER-REQUESTED TUNING (CSS ONLY)
+   This small block is kept at the end so it overrides earlier styling.
+   Edit the values here to adjust the buttons and footer without hunting
+   through the rest of the stylesheet.
+   ===================================================================== */
+
+/* Header enquiry button: replace the heavy black fill with soft champagne. */
+.site-header .nav-cta {
+  background: #ead5b2; /* Light warm beige works with white, cream, and photos. */
+  color: #30291f; /* Dark text keeps the label easy to read. */
+  border: 1px solid #d8bd91; /* A subtle edge keeps the light button defined. */
+  box-shadow: 0 3px 10px rgba(62, 47, 26, 0.08); /* Adds a gentle lift, not a heavy effect. */
+}
+
+/* WhatsApp icon inside the header button uses a matching muted accent. */
+.site-header .nav-cta i {
+  color: #55765b; /* Muted green nods to WhatsApp without overpowering the palette. */
+}
+
+/* Header enquiry button hover: slightly deeper beige gives clear feedback. */
+.site-header .nav-cta:hover,
+.site-header .nav-cta:focus-visible {
+  background: #f1dfc3; /* Lightens the button on interaction instead of turning dark. */
+  color: #28251f; /* Keeps strong text contrast in the hover state. */
+  border-color: #c9a878; /* Makes the button edge more visible on focus. */
+}
+
+/* Floating contact dock: remove the dark pill visible behind the three icons. */
+.contact-dock {
+  background: rgba(250, 246, 238, 0.94); /* Warm ivory replaces the heavy black background. */
+  border: 1px solid rgba(201, 176, 137, 0.78); /* A fine champagne border defines the dock. */
+  box-shadow: 0 8px 24px rgba(52, 42, 28, 0.13); /* Keeps the dock visible without looking bulky. */
+  -webkit-backdrop-filter: blur(14px); /* Softens whatever image appears behind the dock. */
+  backdrop-filter: blur(14px); /* Standard blur for supported browsers. */
+}
+
+/* All three floating buttons: return to the lighter, consistent champagne fill. */
+.contact-dock-link,
+.contact-dock-link.contact-dock-whatsapp {
+  background: #f0dfc3; /* Light neutral champagne fits both light and dark page imagery. */
+  color: #342b20; /* Dark icons stay crisp against the pale button. */
+  border-color: #d9bf96; /* Adds a delicate outline so circles do not disappear. */
+  box-shadow: 0 2px 7px rgba(62, 47, 26, 0.08); /* Soft shadow adds depth without a black rim. */
+}
+
+/* Floating contact buttons on hover or keyboard focus. */
+.contact-dock-link:hover,
+.contact-dock-link:focus-visible,
+.contact-dock-link[aria-expanded="true"] {
+  background: #f8ead4; /* A little lighter than the resting colour for clear feedback. */
+  color: #282117; /* Keeps icons readable during interaction. */
+  border-color: #c6a36d; /* Gives the active circle a refined outline. */
+  box-shadow: 0 4px 12px rgba(62, 47, 26, 0.14); /* Increases depth slightly on interaction. */
+}
+
+/* Reduce the space above the footer so it connects naturally to the page. */
+.premium-footer {
+  margin-top: 0; /* Prevents extra outside margin above the footer. */
+  padding-top: 24px; /* Keeps a little breathing room without a large blank band. */
+}
+
+/* The homepage contact section already has generous padding; trim its bottom edge. */
+.contact-section.section-pad {
+  padding-bottom: 54px; /* Reduces the gap between the final section and the footer. */
+}
+
+/* On small screens, use a tighter gap while preserving a comfortable footer frame. */
+@media (max-width: 560px) {
+  .premium-footer {
+    padding-top: 14px; /* Avoids a large empty strip on mobile. */
+  }
+  .contact-section.section-pad {
+    padding-bottom: 36px; /* Keeps the mobile page compact without crowding content. */
+  }
+}
+
+
+/* =====================================================================
+   FAQ SECTION — beginner-friendly styling controls
+   Edit colours, spacing, and text sizes here to restyle the FAQs.
+   ===================================================================== */
+/* Soft ivory background separates FAQs from neighbouring sections. */
+.faq-section { background: #f8f6f1; }
+/* Intro on the left and expandable questions on the right. */
+.faq-layout { display:grid; grid-template-columns:.8fr 1.2fr; gap:clamp(36px,7vw,90px); align-items:start; }
+/* Large FAQ heading, matching the site's editorial typography. */
+.faq-intro h2 { margin:0 0 16px; font:500 clamp(36px,4vw,50px)/1.2 var(--serif); letter-spacing:-.8px; }
+/* Accent word in the FAQ heading. */
+.faq-intro h2 em { color:var(--gold-dark); font-weight:500; }
+/* Supporting text under the FAQ heading. */
+.faq-intro > p:not(.eyebrow) { max-width:360px; margin:0 0 24px; color:var(--muted); font-size:14px; line-height:1.85; }
+/* Each question is a separate white card with a light border. */
+.faq-item { background:var(--paper); border:1px solid var(--line); margin-bottom:12px; }
+/* Native summary rows are keyboard accessible and need no JavaScript. */
+.faq-item summary { position:relative; cursor:pointer; list-style:none; padding:20px 54px 20px 22px; color:var(--ink); font-size:14px; font-weight:700; }
+/* Hides the browser's default disclosure marker. */
+.faq-item summary::-webkit-details-marker { display:none; }
+/* Plus sign means the answer is closed. */
+.faq-item summary::after { content:"+"; position:absolute; right:22px; top:50%; transform:translateY(-50%); color:var(--gold-dark); font-size:23px; font-weight:400; }
+/* Minus sign means the answer is open. */
+.faq-item[open] summary::after { content:"−"; }
+/* Visible keyboard focus for visitors navigating without a mouse. */
+.faq-item summary:focus-visible { outline:2px solid var(--gold-dark); outline-offset:-3px; }
+/* Answer spacing and separator. */
+.faq-answer { padding:0 22px 20px; border-top:1px solid var(--line); }
+/* Readable answer copy. */
+.faq-answer p { margin:15px 0 0; color:#625c52; font-size:13px; line-height:1.85; }
+/* Tablet/mobile: place the intro above the question cards. */
+@media (max-width:760px) {
+  .faq-layout { grid-template-columns:1fr; gap:30px; }
+  .faq-intro > p:not(.eyebrow) { max-width:520px; }
+  .faq-item summary { padding:18px 48px 18px 17px; font-size:13px; }
+  .faq-item summary::after { right:16px; }
+  .faq-answer { padding:0 17px 18px; }
+}
+
+
+/* FINAL TUNING: keep the enquiry form visually connected to the footer.
+   Change 24px below if you want a little more or less breathing room. */
+#contact.contact-section.section-pad {
+  padding-bottom: 24px; /* Smaller gap after the form on the homepage. */
+  margin-bottom: 0; /* Removes any extra outside space below this section. */
+}
+
+/* FIXED CONTACT DOCK: keep the three quick-contact actions in one predictable spot.
+   Normal touch gestures remain enabled, so visitors can scroll the page naturally.
+   To adjust placement, edit the right/top values in the main .contact-dock rule above. */
+.contact-dock {
+  touch-action: auto; /* Do not capture finger movement; allow normal page scrolling. */
+  cursor: default; /* The dock is not a draggable control. */
+  user-select: auto; /* Keep normal browser interaction behavior. */
+}
+@media (max-width: 560px) {
+  #contact.contact-section.section-pad {
+    padding-bottom: 18px; /* Tighter form-to-footer spacing on small screens. */
+  }
+}
+
+
+/* FINAL SPACING FIX: connect the last form section directly to the footer.
+   If you want a little breathing room later, change 0px to 8px or 12px. */
+#contact.contact-section.section-pad,
+.contact-page-section.section-pad {
+  padding-bottom: 0 !important; /* Removes the blank strip below either enquiry form. */
+  margin-bottom: 0 !important; /* Prevents outside spacing after the form section. */
+}
+
+/* Start the framed footer at the end of the previous section, not after a blank band. */
+.premium-footer {
+  margin-top: 0 !important; /* Removes any gap above the footer itself. */
+  padding-top: 0 !important; /* Removes the visible background strip above the dark footer panel. */
+}
+
+/* Keep the same tight join on mobile instead of reintroducing footer top padding. */
+@media (max-width: 560px) {
+  #contact.contact-section.section-pad,
+  .contact-page-section.section-pad {
+    padding-bottom: 0 !important; /* Keeps the form and footer visually connected on phones. */
+  }
+  .premium-footer {
+    padding-top: 0 !important; /* Keeps the footer snug against the form on small screens. */
+  }
+}
+
+/* FULL-WIDTH FOOTER FIX
+   Removes the left and right gutters so the footer reaches both browser edges.
+   To restore a framed inset look later, increase the horizontal padding below. */
+.premium-footer {
+  padding-left: 0 !important; /* Removes the outer left gap around the footer panel. */
+  padding-right: 0 !important; /* Removes the outer right gap around the footer panel. */
+  background: #171815 !important; /* Keeps any tiny edge area the same colour as the footer. */
+}
+
+/* Let the dark footer panel fill the complete viewport width instead of stopping
+   at a centered maximum width. */
+.premium-footer-panel {
+  width: 100% !important; /* Stretches the footer panel across the full screen. */
+  max-width: none !important; /* Removes the old 1360px width limit. */
+  margin-left: 0 !important; /* Aligns the panel with the left edge. */
+  margin-right: 0 !important; /* Aligns the panel with the right edge. */
+  border-left: 0 !important; /* Removes the outer frame that looked like a side gutter. */
+  border-right: 0 !important; /* Removes the outer frame that looked like a side gutter. */
+  border-radius: 0 !important; /* Makes the full-width footer meet the viewport edges cleanly. */
+}
+
+/* =====================================================================
+   GALAXY LIVING STUDIO — FINAL VISUAL REFINEMENT
+   This section is intentionally at the end of the file. CSS reads from
+   top to bottom, so these clear overrides take priority over older styles.
+   ===================================================================== */
+
+/* 1. Header: clean, bright, and aligned like the supplied reference photo. */
+.site-header {
+  background: rgba(255, 254, 249, 0.97); /* Warm ivory instead of stark white. */
+  border-bottom: 1px solid rgba(218, 208, 191, 0.72); /* Quiet separator below navigation. */
+  box-shadow: 0 4px 18px rgba(44, 37, 27, 0.035); /* Very soft depth. */
+  -webkit-backdrop-filter: blur(18px) saturate(1.15); /* Frosted effect while scrolling. */
+  backdrop-filter: blur(18px) saturate(1.15);
+}
+
+.site-header .navbar {
+  min-height: 88px; /* Keeps the logo and links comfortably centered. */
+  gap: clamp(18px, 3vw, 42px);
+}
+
+.site-header .brand-mark {
+  width: 46px;
+  height: 46px;
+  border-radius: 14px;
+  box-shadow: 0 3px 9px rgba(35, 31, 24, 0.12); /* Gives the brand icon a gentle lift. */
+}
+
+.site-header .brand strong {
+  color: #28251f; /* Dark, readable brand text. */
+  font-size: 16px;
+  letter-spacing: 1.15px;
+}
+
+.site-header .brand small {
+  color: #655e52; /* Keep the small tagline readable, not pale grey. */
+}
+
+.site-header .nav-links {
+  gap: clamp(15px, 2.15vw, 30px); /* Balanced spacing between navigation links. */
+}
+
+.site-header .nav-links > a:not(.nav-cta) {
+  color: #39362f;
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.site-header .nav-links > a:not(.nav-cta):hover,
+.site-header .nav-links > a:not(.nav-cta):focus-visible {
+  color: #8e6a34;
+}
+
+/* The warm Enquire button is the one clear action in the header. */
+.site-header .nav-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 11px 17px;
+  border: 1px solid #cdb184;
+  border-radius: 4px;
+  background: #e6c58f;
+  color: #29251e;
+  box-shadow: 0 3px 9px rgba(61, 47, 27, 0.08);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.site-header .nav-cta i {
+  margin: 0;
+  color: #355e43; /* A restrained WhatsApp-green detail. */
+}
+
+.site-header .nav-cta:hover,
+.site-header .nav-cta:focus-visible {
+  background: #f0d7ad;
+  border-color: #b9955d;
+  color: #211e18;
+}
+
+/* 2. Hero text: a subtle gradient protects readability over bright photos. */
+.hero .hero-shade {
+  background:
+    linear-gradient(90deg, rgba(15, 15, 14, 0.52) 0%, rgba(15, 15, 14, 0.31) 43%, rgba(15, 15, 14, 0.08) 100%),
+    linear-gradient(0deg, rgba(15, 15, 14, 0.23) 0%, rgba(15, 15, 14, 0.02) 58%);
+}
+
+/* 3. The secondary hero button needs a darker glass surface over light sofas. */
+.hero .hero-actions .button-outline {
+  border: 1px solid rgba(255, 255, 255, 0.78);
+  border-radius: 3px;
+  background: rgba(31, 29, 25, 0.42);
+  color: #fff;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.24);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+
+.hero .hero-actions .button-outline:hover,
+.hero .hero-actions .button-outline:focus-visible {
+  background: rgba(31, 29, 25, 0.72);
+  border-color: #fff;
+  color: #fff;
+}
+
+/* 4. iPhone-inspired quick contact dock: translucent, compact, and anchored
+   neatly against the right edge. The dock stays fixed and is not draggable. */
+.contact-dock {
+  right: 12px;
+  top: 50%;
+  bottom: auto;
+  transform: translateY(-50%); /* Centers the three icons vertically in the window. */
+  gap: 7px;
+  padding: 7px;
+  border: 1px solid rgba(255, 255, 255, 0.78);
+  border-radius: 28px;
+  background: rgba(246, 245, 240, 0.52); /* Transparent glass, not an opaque pill. */
+  -webkit-backdrop-filter: blur(22px) saturate(1.45);
+  backdrop-filter: blur(22px) saturate(1.45);
+  box-shadow: 0 5px 18px rgba(26, 25, 22, 0.10), inset 0 1px 0 rgba(255, 255, 255, 0.78);
+}
+
+.contact-dock:before {
+  opacity: 0.7; /* Softens the decorative rim so it does not look heavy. */
+}
+
+.contact-dock-link,
+.contact-dock-link.contact-dock-whatsapp {
+  width: 43px;
+  height: 43px;
+  border: 1px solid rgba(255, 255, 255, 0.78);
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.54);
+  color: #403b32;
+  box-shadow: 0 2px 7px rgba(28, 26, 22, 0.07), inset 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+.contact-dock-link > i {
+  font-size: 15px;
+}
+
+.contact-dock-link:hover,
+.contact-dock-link:focus-visible,
+.contact-dock-link[aria-expanded="true"] {
+  transform: translateY(-1px); /* Small feedback without making the dock drift sideways. */
+  background: rgba(255, 255, 255, 0.86);
+  color: #795a2f;
+  border-color: rgba(190, 157, 106, 0.75);
+  box-shadow: 0 4px 11px rgba(28, 26, 22, 0.10);
+}
+
+.contact-dock-link.contact-dock-whatsapp {
+  color: #237346; /* Green is reserved for the WhatsApp action. */
+  background: rgba(236, 248, 237, 0.62);
+}
+
+.contact-dock-link.contact-dock-whatsapp:hover,
+.contact-dock-link.contact-dock-whatsapp:focus-visible,
+.contact-dock-link.contact-dock-whatsapp[aria-expanded="true"] {
+  background: rgba(224, 244, 226, 0.92);
+  color: #175b35;
+}
+
+/* Keep the dock at a comfortable thumb-reachable height on phones. */
+@media (max-width: 720px) {
+  .site-header .navbar {
+    min-height: 76px;
+  }
+
+  .contact-dock {
+    top: 44%;
+    right: 7px;
+    transform: translateY(-50%);
+    gap: 5px;
+    padding: 5px;
+    border-radius: 24px;
+  }
+
+  .contact-dock-link,
+  .contact-dock-link.contact-dock-whatsapp {
+    width: 39px;
+    height: 39px;
+  }
+
+  .hero .hero-actions .button-outline {
+    background: rgba(31, 29, 25, 0.52);
+  }
+}
+
+/* Respect visitors who prefer reduced motion. */
+@media (prefers-reduced-motion: reduce) {
+  .site-header,
+  .site-header .nav-cta,
+  .contact-dock-link {
+    transition: none;
+  }
+}
+
+
+/* FINAL REFINEMENT — match the supplied Galaxy Living Studio reference.
+   The header contains navigation only; contact actions remain in the fixed dock. */
+.site-header .nav-cta { display: none !important; }
+
+/* Keep the three frosted-glass contact icons at their earlier upper-right position.
+   They stay fixed in the browser window while the visitor scrolls. */
+.contact-dock {
+  position: fixed;
+  top: 108px;
+  right: 22px;
+  bottom: auto;
+  transform: none;
+}
+
+/* The WhatsApp panel opens beside the dock, aligned to its top edge. */
+.whatsapp-mini-panel {
+  top: 108px;
+  right: 88px;
+}
+
+@media (max-width: 720px) {
+  .contact-dock {
+    top: 108px;
+    right: 7px;
+    bottom: auto;
+    transform: none;
+  }
+  .whatsapp-mini-panel {
+    top: 108px;
+    right: 58px;
+    width: min(320px, calc(100vw - 78px));
+  }
+}
+
+/* HEADER TEXT SIZE — slightly larger for easier reading.
+   The navigation stays on one line on desktop, and the mobile menu remains comfortable to tap. */
+.site-header .nav-links > a:not(.nav-cta) {
+  font-size: 15px;
+}
+.site-header .brand strong {
+  font-size: 18px;
+}
+.site-header .brand small {
+  font-size: 9px;
+}
+
+@media (max-width: 1000px) {
+  .site-header .nav-links > a:not(.nav-cta) {
+    font-size: 14px;
+  }
+  .site-header .brand strong {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 720px) {
+  .site-header .nav-links > a:not(.nav-cta) {
+    font-size: 16px;
+  }
+  .site-header .brand strong {
+    font-size: 16px;
+  }
+  .site-header .brand small {
+    font-size: 9px;
+  }
+}
